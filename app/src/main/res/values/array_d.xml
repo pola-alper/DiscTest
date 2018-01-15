@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="das">
+
+        <item>@string/tAb1d2</item>
+        <item>@string/tAb1d3</item>
+        <item>@string/tAb1d4</item>
+        <item>@string/tAb1d5</item>
+        <item>@string/tAb1d6</item>
+        <item>@string/tAb1d7</item>
+        <item>@string/tAb1d8</item>
+        <item>@string/tAb1d9</item>
+    </string-array>
+
+    <string-array name="daw">
+        <item>@string/tAb1d11</item>
+        <item>@string/tAb1d12</item>
+        <item>@string/tAb1d13</item>
+        <item>@string/tAb1d14</item>
+        <item>@string/tAb1d15</item>
+        <item>@string/tAb1d16</item>
+        <item>@string/tAb1d17</item>
+        <item>@string/tAb1d18</item>
+    </string-array>
+
+    <string-array name="dai">
+        <item>@string/tAb1d20</item>
+        <item>@string/tAb1d21</item>
+        <item>@string/tAb1d22</item>
+        <item>@string/tAb1d23</item>
+        <item>@string/tAb1d24</item>
+        <item>@string/tAb1d25</item>
+        <item>@string/tAb1d26</item>
+    </string-array>
+
+
+    <string-array name="dan">
+        <item>@string/tAb1d28</item>
+        <item>@string/tAb1d29</item>
+        <item>@string/tAb1d30</item>
+    </string-array>
+    <string-array name="dae">
+        <item>@string/tAb1d32</item>
+        <item>@string/tAb1d33</item>
+        <item>@string/tAb1d34</item>
+    </string-array>
+    <string-array name="dac">
+
+        <item>@string/tAb1d36</item>
+        <item>@string/tAb1d37</item>
+        <item>@string/tAb1d38</item>
+        <item>@string/tAb1d39</item>
+    </string-array>
+    <string-array name="daph">
+        <item>@string/tAb1d41</item>
+        <item>@string/tAb1d42</item>
+    </string-array>
+    <string-array name="damh">
+        <item>@string/tAb1d44</item>
+        <item>@string/tAb1d45</item>
+    </string-array>
+    <string-array name="dadh">
+        <item>@string/tAb1d47</item>
+        <item>@string/tAb1d48</item>
+        <item>@string/tAb1d49</item>
+    </string-array>
+    <string-array name="dam">
+
+        <item>@string/tAb1d51</item>
+        <item>@string/tAb1d52</item>
+        <item>@string/tAb1d53</item>
+        <item>@string/tAb1d54</item>
+        <item>@string/tAb1d55</item>
+        <item>@string/tAb1d56</item>
+        <item>@string/tAb1d57</item>
+        <item>@string/tAb1d58</item>
+        <item>@string/tAb1d59</item>
+        <item>@string/tAb1d60</item>
+        <item>@string/tAb1d61</item>
+        <item>@string/tAb1d62</item>
+        <item>@string/tAb1d63</item>
+        <item>@string/tAb1d64</item>
+        <item>@string/tAb1d65</item>
+        <item>@string/tAb1d66</item>
+        <item>@string/tAb1d67</item>
+    </string-array>
+</resources>

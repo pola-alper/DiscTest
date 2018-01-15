@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/disciv"
+
+
+        android:layout_above="@+id/cyp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+
+        android:id="@+id/cyp"
+        style="@style/cyp"
+        android:layout_above="@+id/count"
+       />
+
+
+    <TextView
+       android:id="@+id/count"
+        style="@style/count"
+        android:textColor="@android:color/darker_gray"
+
+
+
+        />
+
+
+    <Button
+        android:id="@+id/button_d"
+        style="@style/button_D"
+        android:onClick="button_dd"
+
+
+        />
+
+    <Button
+        android:id="@+id/button_i"
+        style="@style/button_I"
+        android:onClick="button_i"
+
+
+         />
+
+    <Button
+        android:id="@+id/button_s"
+        style="@style/button_s"
+        android:onClick="button_s"
+
+
+
+
+         />
+
+    <Button
+        android:id="@+id/button_c"
+        style="@style/button_c"
+        android:onClick="button_c"
+
+
+
+
+
+         />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

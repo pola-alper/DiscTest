@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">disc test</string>
+
+    <string name="dialog_title"> Disc Test</string>
+    <string name="dialog_message"> هل تريد الخروج ؟ </string>
+    <string name="positive_button"> نعم</string>
+    <string name="negative_button">لا</string>
+
+
+    <string name="c1">حذر</string>
+    <string name="c10">منظم</string>
+    <string name="c11">متواضع</string>
+    <string name="c12">دقيق الملاحظة</string>
+    <string name="c13">منضبط / ملتزم</string>
+    <string name="c14">متحفظ/يكبت افكاره</string>
+    <string name="c15">ذو شخصية تحليلية</string>
+    <string name="c16">ناقد</string>
+    <string name="c17">ثابت/راسخ</string>
+    <string name="c18">منظم / مرتب</string>
+    <string name="c19">مثالى</string>
+    <string name="c2">دقيق</string>
+    <string name="c20">جاد</string>
+    <string name="c21">ياخذ فى الاعتبار كل الاحتملات</string>
+    <string name="c22">مضحى</string>
+    <string name="c23">عقلانى /قليل المشاعر</string>
+    <string name="c24">يتمسك بالتقليد / تمطى</string>
+    <string name="c3">محدد / مدقق</string>
+    <string name="c4">كثير الشكوك</string>
+    <string name="c5">يقدر / يحترم الاخرين</string>
+    <string name="c6">منطقى</string>
+    <string name="c7">حذر حريص</string>
+    <string name="c8">يسعى للكمال / مثالى</string>
+    <string name="c9">خجول/ متحفظ</string>
+    <string name="d1">مؤثر</string>
+    <string name="d10">مثابر</string>
+    <string name="d11">قاسى/ غير متهاوم</string>
+    <string name="d12">قوى الارادة</string>
+    <string name="d13">مغامر</string>
+    <string name="d14">عدوانى/عنيف</string>
+    <string name="d15">عاقدالعزم/واثق الخطى</string>
+    <string name="d16">يعطى اوامر/مسيطر</string>
+    <string name="d17">قوى الشخصية</string>
+    <string name="d18">مستقل</string>
+    <string name="d19">يتكلم باقناع و صراحة</string>
+    <string name="d2">رائد/ريادى</string>
+    <string name="d20">غير صبور</string>
+    <string name="d21">منافس</string>
+    <string name="d22">شجاع/جرئ</string>
+    <string name="d23">لحوح</string>
+    <string name="d24">موجه/محرك</string>
+    <string name="d3">جرئ/مقدام</string>
+    <string name="d4">مجادل</string>
+    <string name="d5">شجاع/مقدام</string>
+    <string name="d6">يعتمد على نفسه</string>
+    <string name="d7">حاسم</string>
+    <string name="d8">واثق بشدة / قاطع</string>
+    <string name="d9">عنيد/غير مرن</string>
+    <string name="i1">معبر</string>
+    <string name="i10">متفائل</string>
+    <string name="i11">ثرثار</string>
+    <string name="i12">يحب المرح</string>
+    <string name="i13">حلو المعشر/ساحر</string>
+    <string name="i14">جذاب</string>
+    <string name="i15">حماسى</string>
+    <string name="i16">متهور/مندفع</string>
+    <string name="i17">نشيط/مفعم بالحيوية</string>
+    <string name="i18">مؤثر</string>
+    <string name="i19">يتمتع بشعبية</string>
+    <string name="i2">متحمس/مشوق</string>
+    <string name="i20">عاطفى</string>
+    <string name="i21">تلقائى/عفوى</string>
+    <string name="i22">مقنع</string>
+    <string name="i23">متقلب/طائش</string>
+    <string name="i24">مؤثر/محفز</string>
+    <string name="i3">حسوى/نشيط</string>
+    <string name="i4">يصعب التكهن بتصرافاته</string>
+    <string name="i5">منطلق/غير متحفظ</string>
+    <string name="i6">مقنع للاخرين</string>
+    <string name="i7">باعث على الفرح و المرح</string>
+    <string name="i8">يتمتع بالشعبية</string>
+    <string name="i9">ينبض بالحياة</string>
+    <string name="s1">لايشارك</string>
+    <string name="s10">متاقلم / متكيف</string>
+    <string name="s11">محب للناس/ودود</string>
+    <string name="s12">ودود/صدوق</string>
+    <string name="s13">متروى/متانى</string>
+    <string name="s14">ثابت/راسخ</string>
+    <string name="s15">متفهم للمشاعر/متعاطف</string>
+    <string name="s16">بطئ</string>
+    <string name="s17">لايحمل هما/كسول</string>
+    <string name="s18">لطيف/معين</string>
+    <string name="s19">مبهج</string>
+    <string name="s2">مكتفى/قنوع</string>
+    <string name="s20">مماطل</string>
+    <string name="s21">مخلص /وفى</string>
+    <string name="s22">مجامل/ملاطف</string>
+    <string name="s23">يعتمد على الاخريم</string>
+    <string name="s24">متسامح</string>
+    <string name="s3">باذل/مضحى</string>
+    <string name="s4">غير حاسم/ متردد</string>
+    <string name="s5">صبور/يستمع بهدوء</string>
+    <string name="s6">لطيف مع الاخرين</string>
+    <string name="s7">هادئ المزاج</string>
+    <string name="s8">كريم/غير انانى</string>
+    <string name="s9">يسهل التعامل معه</string>
+
+
+    <string name="tAb1d1">نقاط القوة</string>
+
+    <string name="tAb1d2">ينجز الاشياء فورا</string>
+    <string name="tAb1d3">مثــــابر</string>
+    <string name="tAb1d4">يتحمل المسئولية</string>
+    <string name="tAb1d5">يقبل التحديات</string>
+    <string name="tAb1d6">يتخد قرارات سريعة</string>
+    <string name="tAb1d7">يحل المشاكل</string>
+    <string name="tAb1d8">يعتمد على نفسه</string>
+    <string name="tAb1d9">يعمل بجدية</string>
+
+    <string name="tAb1d10">نقاط الضعف</string>
+
+    <string name="tAb1d11">لا يحس بالاخرين</string>
+    <string name="tAb1d12">يغفل المخاطر و المحاذير</string>
+    <string name="tAb1d13">بأخذ على عاتفه أشياء كثيرة</string>
+    <string name="tAb1d14">يطالب الاخرين بالكثير</string>
+    <string name="tAb1d15">غير صبور</string>
+    <string name="tAb1d16">غير مرن و عنيد</string>
+    <string name="tAb1d17">لا يهتم بالتفاصيل</string>
+    <string name="tAb1d18">يرفض القيود</string>
+
+    <string name="tAb1d19">الوضع المثالى الافضل</string>
+
+    <string name="tAb1d20">أنشطة مختلفة جديدة للعمل</string>
+    <string name="tAb1d21">فرص الآنجاز المهام</string>
+    <string name="tAb1d22">تحديات مستمرة</string>
+    <string name="tAb1d23">واجبات صعبة</string>
+    <string name="tAb1d24">حرية للعمل</string>
+    <string name="tAb1d25">التحكم فى المواقف</string>
+    <string name="tAb1d26">يطلب إجابات مباشرة من الآخرين</string>
+
+    <string name="tAb1d27">يحتاج للأخرين لكى يقدوما له</string>
+
+    <string name="tAb1d28">متابعة فى الآعمال الروتينية</string>
+    <string name="tAb1d29">مــحاذير</string>
+    <string name="tAb1d30">تفاصيل و حقائق</string>
+
+    <string name="tAb1d31">جوانب النمو الشخصى</string>
+
+    <string name="tAb1d32">صبر متنامى</string>
+    <string name="tAb1d33">حساسية نحو احتياجات الاخرين</string>
+    <string name="tAb1d34">أكثر مرونة</string>
+
+    <string name="tAb1d35">كيف تتواصل  معه </string>
+
+    <string name="tAb1d36">كن مباشرا</string>
+    <string name="tAb1d37">ابدا بالنتائج و الفوائد ثم اذكر تفاصيل إذا طلب منك</string>
+    <string name="tAb1d38">كن سريعا و محددا</string>
+    <string name="tAb1d39">ضع أمامهم تحديات</string>
+    <string name="tAb1d40">كيف تقنعه</string>
+    <string name="tAb1d41">ركز على النتائج وبالأخص على النتيجة النهائية والنقطة الجوهرية </string>
+    <string name="tAb1d42">اجب عن سؤالهم "ما هى المكاسب" ؟</string>
+    <string name="tAb1d43">كيف تحفزه</string>
+    <string name="tAb1d44"> قدم لهم الماذا ثم دعهم يحددون الكيف</string>
+    <string name="tAb1d45">دع السيطرة تكون لهم ليكونوا مسؤلين عن شئ ما</string>
+    <string name="tAb1d46">كيف تختلف فى الرأى معه </string>
+    <string name="tAb1d47">اتفق على الهدف</string>
+    <string name="tAb1d48">اسال لماذا تعتقد ان هذه هى افضل وسيلة ؟</string>
+
+    <string name="tAb1d49">هل فكرت فى البدائل الاخرى للوصول الى هدفك ؟</string>
+    <string name="tAb1d50">السلوك الممكن ملاحظته فى </string>
+    <string name="tAb1d51">المشتريات : يتخذ قرارات سريعة</string>
+    <string name="tAb1d52">التغيير : يحب التغيير</string>
+    <string name="tAb1d53">الصراع : يرد الهجوم</string>
+    <string name="tAb1d54">القيادة : سريع , حاد , فى عجلة من أمره للوصول إلى نتيجة</string>
+    <string name="tAb1d55">الشكل المكتبى : أشياء ثابته واقعية وعملية / مكتب كبير / ذو فائدة </string>
+    <string name="tAb1d56">الحركات : يصدر حركات كثيرة , إشارات كثيرة باليد</string>
+    <string name="tAb1d57">الاهداف : يضع أهدافا كثيرة غالبا ماتكون عالية المخاطر و غير مكتوبة </string>
+    <string name="tAb1d58">الخطابات : مباشرة / محددة / موجهة بهدف</string>
+    <string name="tAb1d59">التنظيم : فعال , غير مرتب</string>
+    <string name="tAb1d60">القراءة : ملخصات الكتب , ملخصات قصيرة للتقارير</string>
+    <string name="tAb1d61">المخاطر : عالية</string>
+    <string name="tAb1d62">القواعد : يميل إلى كسرها , يميل للوصول إلى النهاية </string>
+    <string name="tAb1d63">الوقوف : يميل إلى الامام , إحدى يديه فى الجيب</string>
+    <string name="tAb1d64">مايزيل الضغوط : أنشطة جسدية , طبيعة ذات منافسة قوية </string>
+    <string name="tAb1d65">التكلم فى التليفون : لا يتكلم كثيرا , يتجه نحو الهدف , أهداف موجهة</string>
+    <string name="tAb1d66">التكلم مع الاخرين : مباشر , يقاطع الآخرين , يستنتج إجابات الآخرين</string>
+    <string name="tAb1d67">طريقة السير : سريعة , دائمأ ما يذهب إلى مكان ما </string>
+
+
+    <string name="tAb1i2">متفائل</string>
+    <string name="tAb1i3">صاحب شخصية جذابة ولبق</string>
+    <string name="tAb1i4">متحدث جيد</string>
+    <string name="tAb1i5">يخلق جوا مسليا</string>
+    <string name="tAb1i6">يتخد قرارات سريعة</string>
+    <string name="tAb1i7">حماسى</string>
+    <string name="tAb1i8">يترك انطباعا جيدا</string>
+    <string name="tAb1i9">مُقنع</string>
+
+    <string name="tAb1i11">عدم مواصلة العمل حتى إنجازه</string>
+    <string name="tAb1i12">يتكلم كثيرا</string>
+    <string name="tAb1i13">يتصرف بأندفاع و بتهور</string>
+    <string name="tAb1i14">يتورط كثيرا فوق حدود طاقته وإمكانياته</string>
+    <string name="tAb1i15">يخطى الحكم على الامكانيات</string>
+    <string name="tAb1i16">يبالغ فى تقدير النتائج المتوقعة</string>
+    <string name="tAb1i17">يقفز إلى الاستنتاجات ولا يخوض فى تفاصيل</string>
+    <string name="tAb1i18">يتلاعب بالالفاظ</string>
+
+    <string name="tAb1i20">مناخ يتسم بالود</string>
+    <string name="tAb1i21">تحرر من التحكم والتفاصبل</string>
+    <string name="tAb1i22">فرص للتأثير على الاخرين</string>
+    <string name="tAb1i23">تقدير جماعى لقدراته</string>
+    <string name="tAb1i24">فرصة لتحويل الآقوال إلى أفعال</string>
+    <string name="tAb1i25">إظهار الإيجابيات وتقديم الثناء</string>
+    <string name="tAb1i26">رد فعل حماسى للأفكار</string>
+
+    <string name="tAb1i28">متابعة للتفاصيل</string>
+    <string name="tAb1i29">أفكار منطقية</string>
+    <string name="tAb1i30">تركيزا على المهمة</string>
+
+    <string name="tAb1i32">تحكم أفضل فى الوقت</string>
+    <string name="tAb1i33">موضوعية فى أتخاذ القرارات</string>
+    <string name="tAb1i34">التأنى قبل العمل</string>
+
+    <string name="tAb1i36">كن إيجابيا وودودا</string>
+    <string name="tAb1i37">قدم لهم المدح</string>
+    <string name="tAb1i38">أكد على أستحقاقهم</string>
+    <string name="tAb1i39">أعطهم الشعور "إنى أحتاج إليكم"</string>
+    <string name="tAb1i41">أنفعل , تحمس</string>
+    <string name="tAb1i42">شارك  بأختبارات لآشخاص مهمين</string>
+    <string name="tAb1i43">أجب على سؤالهم "ما هى المكاسب ؟"</string>
+    <string name="tAb1i45">استشير و تبادل الرأى معهمحول الافكار والمشروعات والناس</string>
+    <string name="tAb1i46">اعترف بمجهوداتهم أمام الاخرين</string>
+    <string name="tAb1i47">أجعلهم يجدون وقتا مرحا</string>
+    <string name="tAb1i49">اسمح بمرور الوقت لقد اصبحوا متحمسين لآشياء كثيرة وسوف ينقلون لعمل شئ اخر</string>
+
+    <string name="tAb1i51">المشتريات : يتخذ قرارات سريعة , منتجات مبهرة , مندفع</string>
+    <string name="tAb1i52">التغيير : سريع بحيث لا يمكن ملاحظته</string>
+    <string name="tAb1i53">الصراع : يهرب من الصراعات , يهاجم تحت ضغط</string>
+    <string name="tAb1i54">القيادة : مرئى , ينظر حوله , يشع على الآخرين</string>
+    <string name="tAb1i55">الشكل المكتبى : معاصر , مذكر بالاختبارات و التجارب </string>
+    <string name="tAb1i56">الحركات : العديد من تعبيرات الوجه وحركات السير </string>
+    <string name="tAb1i57">الاهداف : يضع الكثير منها و يحقق القليل . هناك نيات بدون تخطيط </string>
+    <string name="tAb1i58">الخطابات : كثير من الكلمات , حماسى , يركز على الناس </string>
+    <string name="tAb1i59">التنظيم : يفتقر إلى التنظيم / متورط فى أشياء كثيرة جدا</string>
+    <string name="tAb1i60">القراءة : خيالى , كتب خاصة بتحسين الذات</string>
+    <string name="tAb1i61">المخاطر : يأخذ المخاطر بشكل معتدل</string>
+    <string name="tAb1i62">القواعد : لا يبالى بها , يكسرها عن عمد </string>
+    <string name="tAb1i63">الوقوف : يميل إلى الامام , الرجلان متباعدتان , كلتا اليدين فى الجيوب</string>
+    <string name="tAb1i64">مايزيل الضغوط : يتفاعل , أشخاص محيطون به </string>
+    <string name="tAb1i65">التكلم فى التليفون : محادثات طويلة , يطيل فى الكلمات</string>
+    <string name="tAb1i66">التكلم مع الاخرين : محادثات طويلة مع الآشخاص , ليس مستمعا جيدا</string>
+    <string name="tAb1i67">طريقة السير : يتذبذب بين الآشياء , يميل إلى سبر الآغوار </string>
+
+
+    <string name="tAb1s2">يدعم يشجع يؤازر</string>
+    <string name="tAb1s3">مخلص ذو ولاء</string>
+    <string name="tAb1s4">ثابت/ مستقر</string>
+    <string name="tAb1s5">يعتمد عليه</string>
+    <string name="tAb1s6">مقبول لدى الاخرين</string>
+    <string name="tAb1s7">لديه استعداد لخدمة الاخرين</string>
+    <string name="tAb1s8">مستمع جيد</string>
+    <string name="tAb1s9">يبنى العلاقات</string>
+
+    <string name="tAb1s11">يقاوم التغيير السريع</string>
+    <string name="tAb1s12">متسامح بافراط / متساهل</string>
+    <string name="tAb1s13">مترجج غير حاسم</string>
+    <string name="tAb1s14">غير مباشر مع الاخرين</string>
+    <string name="tAb1s15">غير ملتزم بالمواعيد</string>
+    <string name="tAb1s16"> مماطل</string>
+    <string name="tAb1s17">يتفادى الصراع</string>
+    <string name="tAb1s18">يفتقد لروح المبادرة</string>
+
+    <string name="tAb1s20">تقدير حقيقى</string>
+    <string name="tAb1s21"> منازعات اقل</string>
+    <string name="tAb1s22">الاحساس بالامان</string>
+    <string name="tAb1s23">الاعتراف بالعمل</string>
+    <string name="tAb1s24">مساحات محددة</string>
+    <string name="tAb1s25">طريفة تقليدية فى عمل الاشياء</string>
+    <string name="tAb1s26"> فرص لتنمية العلاقات</string>
+
+    <string name="tAb1s28">قوة كبيرة امام التحديات الجديدة</string>
+    <string name="tAb1s29"> مساعدة لحل المشاكل الصعبة</string>
+    <string name="tAb1s30">الابداع و التغيير</string>
+
+    <string name="tAb1s32">مواجة المواقفف</string>
+    <string name="tAb1s33">يبادر اكثر</string>
+    <string name="tAb1s34"> ان يفكر خارج الصندوق</string>
+
+    <string name="tAb1s36">كن ودود</string>
+    <string name="tAb1s38">تعامل معهم ببساطة</string>
+    <string name="tAb1s39">تنحى قليلا عن الاهداف</string>
+    <string name="tAb1s40">لاتضغط عليهم</string>
+    <string name="tAb1s41">دعهم يستجيبون بطريقتهم الخاصة</string>
+
+
+    <string name="tAb1s42">كيف تقنع</string>
+
+    <string name="tAb1s43">اجب على لماذا</string>
+    <string name="tAb1s45">اقض وقتا معهم</string>
+    <string name="tAb1s46">اجب على سؤالهم لماذا تريد تغيير الاشياء</string>
+
+    <string name="tAb1s48">المهم عمل الامول معا</string>
+    <string name="tAb1s49">حافظ دائما على العلاقة</string>
+    <string name="tAb1s50"> اجعلهم فى سلام و قلل من الصراعات</string>
+
+    <string name="tAb1s51">كيف تختلف فى الرأى</string>
+
+    <string name="tAb1s53">اصرف وقتا فى اقناعهم بان عجم الاتفاق لا يفسد العلاقة الاختلاف فى الراى لا يفسد للود قضية</string>
+
+    <string name="tAb1s55">المشتريات : يتخض قرارات بطيئة منتجات تقليدية</string>
+    <string name="tAb1s56">التغيير : لايحب التغيير يحتاج الى تنبيه لكى يتحسن</string>
+    <string name="tAb1s57">الصراع : اشرخ و بعد ذالك سيقبل</string>
+    <string name="tAb1s58">القيادة : خطوات متراخية ليس فى عجلة من امره</string>
+    <string name="tAb1s59">الشكل المكتبى : صور عائلية جو عائلى</string>
+    <string name="tAb1s60">الحركات: سوف يستعمل اليدين لكن ليست هناك حركات كثيرة</string>
+    <string name="tAb1s61">الاهداف: يضع اهدافا قصيرة المدى و اهدافا لها مخاطر قليلة قائمة بنشاط يومى</string>
+    <string name="tAb1s62">الخطابات: خطابات طويلةمعلومات كثيرة جدا</string>
+    <string name="tAb1s63">التنظيم : غالبا ما يكون غير منظم لدرجة الفوضى</string>
+    <string name="tAb1s64">القراة: قصص عن الناس شعر لكن غير خيالى</string>
+    <string name="tAb1s65">المخاطر : متوسطة الى قليلة</string>
+    <string name="tAb1s66">القواعد : يتبع القوانين التى اثبتت نجاحها مع مرور الوقت</string>
+    <string name="tAb1s67">الوقوف: يميل للخلف يداه فى الجيوب او خلف الظهر</string>
+    <string name="tAb1s68">ما يزيل الظغوط : حمام ساخن</string>
+    <string name="tAb1s69">التكلم فى التليفون : متحدث مبهج برد و اهتمام</string>
+    <string name="tAb1s70">التكلم مع الاخرين: مبهج و ليس فظا و يستمع قبل ان يتكلم</string>
+    <string name="tAb1s71">طريقة السير : ثابت خطوات سهلة (بلا جهد)</string>
+
+
+    <string name="tAb1c2">منظم مرتب</string>
+    <string name="tAb1c3"> منضبط</string>
+    <string name="tAb1c4">مدقق (متمكن و متقن)</string>
+    <string name="tAb1c5">محلل للاشياء</string>
+    <string name="tAb1c6">كفؤ</string>
+    <string name="tAb1c7">محدد</string>
+    <string name="tAb1c8">لبق مع الاخرين</string>
+    <string name="tAb1c9">يهتم بالنوعية</string>
+
+    <string name="tAb1c11">يبالغ فى الاحتياط(غير حاسم)</string>
+    <string name="tAb1c12">صارم بشكل مفرط</string>
+    <string name="tAb1c13">يفتقر الى التلقائية</string>
+    <string name="tAb1c14">حساس للنقد</string>
+    <string name="tAb1c15">الاهتمام بالتفاصيل بشكل مبالغ فيه</string>
+    <string name="tAb1c16">يبحث عن العيوب</string>
+    <string name="tAb1c17">شكاك</string>
+    <string name="tAb1c18">متشائم</string>
+
+    <string name="tAb1c20">قادر على التركيز على التفاصيل</string>
+    <string name="tAb1c21">فرص للنقد</string>
+    <string name="tAb1c22">متوافق مع البيثة المحيطة به</string>
+    <string name="tAb1c23">القدرة على التحليل</string>
+    <string name="tAb1c24">توصيف القمل بدقة</string>
+    <string name="tAb1c25">فرص للتخطيط بعناية</string>
+    <string name="tAb1c26">لديه وقت لعمل الاشياء بطريقة صحيحة</string>
+    <string name="tAb1c27">فرص لبث الطمانينة</string>
+
+    <string name="tAb1c29">اتخاض سرعة القرار</string>
+    <string name="tAb1c30">التفاؤل</string>
+    <string name="tAb1c31">المساعدة فى إقناع الاخرين</string>
+
+    <string name="tAb1c33">يكون منفتحا أكثر مع المشاعر</string>
+    <string name="tAb1c34">زيادة الثقة الشخصية</string>
+    <string name="tAb1c35">يكون اكثر تفاؤلا</string>
+
+    <string name="tAb1c37">قدم لهم الحقائق واضحة</string>
+    <string name="tAb1c38">اعرض الاهداف بمواضعية</string>
+    <string name="tAb1c39">لا تتعجل</string>
+    <string name="tAb1c40">كن محدد و دقيقا</string>
+
+    <string name="tAb1c42">من المهم بالنسبة لهم كيف تعمل بطريقة صحيحة</string>
+    <string name="tAb1c43">ارهم خطوة بخطوى كيف يتم عملها</string>
+    <string name="tAb1c44">اجل على سؤالهم كيف تريدنى ان افعل هذا</string>
+
+    <string name="tAb1c46">المهم كيفية تنفيذ الامر بافضل طريقية</string>
+    <string name="tAb1c47">كن موجودا قريبا منهم فى العمل</string>
+    <string name="tAb1c48"> امنحهم وقتا لكى يعملوا الامور بطريقة صحيحة</string>
+
+    <string name="tAb1c50">ركز على الحقائق</string>
+    <string name="tAb1c51">اجمع الحقائق الخاصة بك انهم لن يغيرو اراءهم بالندائات الحماسية او بالكلام العاطف</string>
+
+    <string name="tAb1c53">المشتريات يتخذ القرارات ببطئ منتجات مضمونة</string>
+    <string name="tAb1c54"> التغيير : قلق بشأن نتائج التغيير</string>
+    <string name="tAb1c55">الصراع: يتجنب الصراعات</string>
+    <string name="tAb1c56">القيادة: بهدوء يتبع القواعد</string>
+    <string name="tAb1c57">الشكل المكتبى :رسومات بيانية / جداول توظيف</string>
+    <string name="tAb1c58">الحركات:متحفظ , قيلية جدا او قد لا تكون هناك حركات بالايدى</string>
+    <string name="tAb1c59">الاهداف: يضع اهدافا مضمونة تطبق على مجالات عديدة</string>
+    <string name="tAb1c60"> الخطابات: فى الصميم تحتوى فى الاغلب على الحقائق</string>
+    <string name="tAb1c61">التنظيم : كل شئ فى مكانه تماما</string>
+    <string name="tAb1c62">القراءة: غير خيالى الجرائد المتخصصة</string>
+    <string name="tAb1c63">المخاطر : قليلة</string>
+    <string name="tAb1c64">القواعد :طبقا لما هو موجود بالكتاب</string>
+    <string name="tAb1c65"> الوقوف :الذرعان مطويان احدى اليدين على الذقن</string>
+    <string name="tAb1c66">مايزيل الضغوط : وقت بمفرده</string>
+    <string name="tAb1c67"> التكلم  فى التليفون :لا يثرثر فى الصميم</string>
+    <string name="tAb1c68">التكلم مع الاخرين : مباشر متسائل واضح</string>
+    <string name="tAb1c69">طريقة السير :فى خط مستقيم</string>
+
+
+    <string name="disc">DISC: dominance, influence, steadiness, and compliance.</string>
+    <string name="developers">Developed by :</string>
+    <string name="names">Pola Alper - Kerolos G. Samy</string>
+
+    <string name="yourc">(C)انت شخصية </string>
+    <string name="yourd">(D)انت شخصية </string>
+    <string name="youri">(I)انت شخصية </string>
+    <string name="yours">(S)انت شخصية </string>
+    <string name="Contact">تواصل معنا</string>
+    <string name="Personalities">الشخصيات</string>
+    <string name="Language">اللغة</string>
+    <string name="ReviewApp">قيم البرنامج</string>
+    <string name="ShareApp">انشر البرنامج</string>
+    <string name="about">عن المطورين</string>
+    <string name="abouttxt">DISC هو اختبار تحديد شخصية مقتبس من نظريةعالم النفس ويليم مولتون مارستون و التى تتمحور عن اربع انواع من التعامل الشخصى و التى تسمى حاليا المسيطر ,المؤثر ,المستقر، المثالى.</string>
+    <string name="cvideoresult">f_hsw58T-Hw</string>
+    <string name="cyp">اختار شخصيتك</string>
+    <string name="ivideoresult">8c911MhsCkU</string>
+    <string name="svideoresult">WI4kJUflUVE</string>
+    <string name="start">ابدأ</string>
+    <string name="video">الفيديو</string>
+    <string name="description">الوصف</string>
+    <string name="title_activity_about">عن </string>
+
+
+</resources>

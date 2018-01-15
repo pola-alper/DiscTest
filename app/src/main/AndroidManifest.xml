@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kerojesus.DiscTest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:icon="@drawable/disclogove"
+        android:label="@string/title_activity_main22"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_main22"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.StartActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_main22"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_DK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_result_activity__d"
+            android:screenOrientation="portrait"
+            android:theme="@style/DTheme3" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_IK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_result_activity__i"
+            android:screenOrientation="portrait"
+            android:theme="@style/ITheme4" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_SK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_result_activity__s"
+            android:screenOrientation="portrait"
+            android:theme="@style/STheme5" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_CK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_result_activity__c"
+            android:screenOrientation="portrait"
+            android:theme="@style/CTheme6" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.ContactUsK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_contact__us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.Questions"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.keronpola.DiscTest.Activities.PersonalitiesK"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_personalities"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.keronpola.DiscTest.Activities.AboutActivityK" />
+        <activity android:name="com.example.keronpola.DiscTest.Activities.LanChangeK" />
+    </application>
+
+</manifest>

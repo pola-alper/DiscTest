@@ -1,0 +1,578 @@
+<resources>
+    <string name="app_name">disc test</string>
+    <string name="disc.test" translatable="false">DISC Test</string>
+    <string name="action_Language" translatable="false">Language</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="title_activity_main22" translatable="false">Disc Test</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_contact__us" translatable="false">Contact Us</string>
+    <string name="title_activity_result_activity__d" translatable="false">ResultActivity_D</string>
+    <string name="title_activity_result_activity__i" translatable="false">ResultActivity_I</string>
+    <string name="title_activity_result_activity__s" translatable="false">ResultActivity_S</string>
+    <string name="title_activity_result_activity__c" translatable="false">ResultActivity_C</string>
+
+    <string name="description">Description</string>
+    <string name="video">Video</string>
+
+    <string name="Personalities">Personalities</string>
+    <string name="Language">Language</string>
+    <string name="Contact">Contact Us</string>
+    <string name="ShareApp">Share App</string>
+    <string name="ReviewApp">Review App</string>
+    <string name="about">About</string>
+
+
+    <string name="personality" translatable="false">choose your personality</string>
+
+    <string name="rta_dialog_title" translatable="false">Rate this app</string>
+    <string name="rta_dialog_message" translatable="false">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_ok" translatable="false">Rate now</string>
+    <string name="rta_dialog_cancel" translatable="false">Later</string>
+    <string name="rta_dialog_no" translatable="false">No, thanks</string>
+
+    <string name="dialog_title"> Disc Test</string>
+    <string name="dialog_message"> Are you sure to exit ? </string>
+    <string name="positive_button"> Yes</string>
+    <string name="negative_button">No</string>
+
+    <string name="d1">Forceful</string>
+    <string name="i1">Expressive</string>
+    <string name="s1">Restrained</string>
+    <string name="c1">Careful</string>
+
+    <string name="d2">Pioneering</string>
+    <string name="i2">Exciting</string>
+    <string name="s2">Satisfied</string>
+    <string name="c2">Correct</string>
+
+    <string name="d3">Bold</string>
+    <string name="i3">Animated</string>
+    <string name="s3">Willing</string>
+    <string name="c3">Precise</string>
+
+    <string name="d4">Argumentative</string>
+    <string name="i4">Unpredictable</string>
+    <string name="s4">Indecisive</string>
+    <string name="c4">Doubting</string>
+
+    <string name="d5">Daring</string>
+    <string name="i5">Outgoing</string>
+    <string name="s5">Patient</string>
+    <string name="c5">Respectful</string>
+
+    <string name="d6">Self reliant</string>
+    <string name="i6">Persuasive</string>
+    <string name="s6">Gentle</string>
+    <string name="c6">Logical</string>
+
+    <string name="d7">Decisive</string>
+    <string name="i7">Life of the party</string>
+    <string name="s7">Even tempered</string>
+    <string name="c7">Cautious</string>
+
+    <string name="d8">Assertive</string>
+    <string name="i8">Popular</string>
+    <string name="s8">Generous</string>
+    <string name="c8">Perfectionist</string>
+
+    <string name="d9">Unyielding</string>
+    <string name="i9">Colorful</string>
+    <string name="s9">Easygoing</string>
+    <string name="c9">Modest</string>
+
+    <string name="d10">Persistent</string>
+    <string name="i10">Optimistic</string>
+    <string name="s10">Accommodating</string>
+    <string name="c10">Systematic</string>
+
+    <string name="d11">Relentless</string>
+    <string name="i11">Talkative</string>
+    <string name="s11">Neighborly</string>
+    <string name="c11">Humble</string>
+
+    <string name="d12">Strong willed</string>
+    <string name="i12">Playful</string>
+    <string name="s12">Friendly</string>
+    <string name="c12">Observant</string>
+
+    <string name="d13">Adventurous</string>
+    <string name="i13">Charming</string>
+    <string name="s13">Deliberate</string>
+    <string name="c13">Disciplined</string>
+
+    <string name="d14">Aggressive</string>
+    <string name="i14">Attractive</string>
+    <string name="s14">Steady</string>
+    <string name="c14">Restrained</string>
+
+    <string name="d15">Determined</string>
+    <string name="i15">Enthusiastic</string>
+    <string name="s15">Sympathetic</string>
+    <string name="c15">Analytical</string>
+
+    <string name="d16">Commanding</string>
+    <string name="i16">Impulsive</string>
+    <string name="s16">Slow paced</string>
+    <string name="c16">Critical</string>
+
+    <string name="d17">Force of character</string>
+    <string name="i17">Lively</string>
+    <string name="s17">Laid back</string>
+    <string name="c17">Consistent</string>
+
+    <string name="d18">Independent</string>
+    <string name="i18">Influential</string>
+    <string name="s18">Kind</string>
+    <string name="c18">Orderly</string>
+
+    <string name="d19">Out spoken</string>
+    <string name="i19">Popular</string>
+    <string name="s19">Pleasant</string>
+    <string name="c19">Idealistic</string>
+
+    <string name="d20">Impatient</string>
+    <string name="i20">Emotional</string>
+    <string name="s20">Procrastinator</string>
+    <string name="c20">Serious</string>
+
+    <string name="d21">Competitive</string>
+    <string name="i21">Spontaneous</string>
+    <string name="s21">Loyal</string>
+    <string name="c21">Thoughtful</string>
+
+    <string name="d22">Courageous</string>
+    <string name="i22">Convincing</string>
+    <string name="s22">Considerate</string>
+    <string name="c22">Self sacrificing</string>
+
+    <string name="d23">Pushy</string>
+    <string name="i23">Flighty</string>
+    <string name="s23">Dependent</string>
+    <string name="c23">Stoic</string>
+
+    <string name="d24">Directing</string>
+    <string name="i24">Stimulating</string>
+    <string name="s24">Tolerant</string>
+    <string name="c24">Conventional</string>
+
+    <string name="tAb1d1">Strength Points</string>
+
+    <string name="tAb1d2">  Immediate performer</string>
+    <string name="tAb1d3">  persevering</string>
+    <string name="tAb1d4">  Taking responsibility well</string>
+    <string name="tAb1d5">  Accepts challenges</string>
+    <string name="tAb1d6">  Takes speedy decisions</string>
+    <string name="tAb1d7">  Solves any problem easily</string>
+    <string name="tAb1d8">  independent</string>
+    <string name="tAb1d9">  Hardworking</string>
+
+    <string name="tAb1d10">Weakness Points</string>
+
+    <string name="tAb1d11">  Careless</string>
+    <string name="tAb1d12">  Reckless</string>
+    <string name="tAb1d13">  Undertakes too many things upon himself</string>
+    <string name="tAb1d14">  Over demands</string>
+    <string name="tAb1d15">  Impatient</string>
+    <string name="tAb1d16">  Inelastic and adamant</string>
+    <string name="tAb1d17">  Careless about details</string>
+    <string name="tAb1d18">  Rejects restrictions</string>
+
+    <string name="tAb1d19">The Ideal Situation:</string>
+
+    <string name="tAb1d20">  Various and newly different activities</string>
+    <string name="tAb1d21">  Opportunities to accomplish tasks</string>
+    <string name="tAb1d22">  Continuing challenges</string>
+    <string name="tAb1d23">  Tough duties</string>
+    <string name="tAb1d24">  freehand</string>
+    <string name="tAb1d25">  Taking control Of situations</string>
+    <string name="tAb1d26">  Demands a straight answer</string>
+
+    <string name="tAb1d27">Needs People To Advance Him</string>
+
+    <string name="tAb1d28">  Followup into routines</string>
+    <string name="tAb1d29">  Warning</string>
+    <string name="tAb1d30">  Facts and details</string>
+
+    <string name="tAb1d31">Aspects Of Personal Growth</string>
+
+    <string name="tAb1d32">  Growing patience</string>
+    <string name="tAb1d33">  Sensitivity toward the needs of others</string>
+    <string name="tAb1d34">  More flexible</string>
+
+    <string name="tAb1d35">How To Connect With Him?</string>
+
+    <string name="tAb1d36">  Be direct </string>
+    <string name="tAb1d37">  begin with the results and advantages</string>
+    <string name="tAb1d38">  Be fast and fixed</string>
+    <string name="tAb1d39">  put them in challenges</string>
+
+    <string name="tAb1d40">How To Persuade Him?</string>
+
+    <string name="tAb1d41">  Focus on the results especially the final one</string>
+    <string name="tAb1d42">  Answer their question " what we're going to gain?"</string>
+
+    <string name="tAb1d43"> How To Motivate Him?</string>
+
+    <string name="tAb1d44">  Give them a what and let them deal with how</string>
+    <string name="tAb1d45">  put them in charge</string>
+
+    <string name="tAb1d46"> How To Disagree With Him?</string>
+
+    <string name="tAb1d47">  Agree on the target</string>
+    <string name="tAb1d48">  Ask why you think its better that way?</string>
+    <string name="tAb1d49">  have you thought of replacements to achieve the target?</string>
+
+    <string name="tAb1d50">The Behaviors Can Be Observed In</string>
+
+    <string name="tAb1d51"> Purchases: takes a quick decisions</string>
+    <string name="tAb1d52"> Change: loves change</string>
+    <string name="tAb1d53"> Conflicts: return any attack</string>
+    <string name="tAb1d54"> Leadership: Fast, sharp and in a hurry to achieve a goal</string>
+    <string name="tAb1d55"> The office shape: particular and realstic things , Helpful, large office</string>
+    <string name="tAb1d56"> Movements: A lot of hand signs and other movements</string>
+    <string name="tAb1d57"> Goals: puts a lot of goals that is mostly Highrisk and nonwritten</string>
+    <string name="tAb1d58"> Speeches: Direct, specific with a goal</string>
+    <string name="tAb1d59"> strategy: Affective but messy</string>
+    <string name="tAb1d60"> Readings: mostly summaries</string>
+    <string name="tAb1d61"> Risks: high</string>
+    <string name="tAb1d62"> rules: Tends to break it and achieve the intended goal</string>
+    <string name="tAb1d63"> standing: Leaning forward, one of his hands in the pocket</string>
+    <string name="tAb1d64"> What removes stress: physical activities and a very strong competitive personality</string>
+    <string name="tAb1d65"> On the phone: doesn\'t talk much, Heading towards goal</string>
+    <string name="tAb1d66"> Speaking with others: direct, interrupt others, Deduce answers of others</string>
+    <string name="tAb1d67"> The way he walks: fast , heading to somewhere</string>
+
+
+    <string name="tAb1i1" translatable="false">Strength Points</string>
+
+    <string name="tAb1i2">  optimistic</string>
+    <string name="tAb1i3">  attractive person / tactless</string>
+    <string name="tAb1i4">  Good speaker</string>
+    <string name="tAb1i5">  creates an atmosphere amused </string>
+    <string name="tAb1i6">  enthusiastic</string>
+    <string name="tAb1i7">  leaves a good impression</string>
+    <string name="tAb1i8">  masked</string>
+    <string name="tAb1i9">  Open minded / approachable</string>
+
+    <string name="tAb1i10" translatable="false">Weakness Points</string>
+
+    <string name="tAb1i11">  Not to continue the work until accomplished</string>
+    <string name="tAb1i12">  Speak much</string>
+    <string name="tAb1i13">  Acting impulsively and recklessly</string>
+    <string name="tAb1i14">  Compromising too much above the limits of his energies and possibilities</string>
+    <string name="tAb1i15">  Mistaken judgment on Possibilities</string>
+    <string name="tAb1i16">  Overestimate the expected results</string>
+    <string name="tAb1i17">  Jump to conclusions, do not go into details </string>
+    <string name="tAb1i18">  playing on vocalizations</string>
+
+    <string name="tAb1i19" translatable="false">The Ideal Situation</string>
+
+    <string name="tAb1i20">  An atmosphere of friendliness</string>
+    <string name="tAb1i21">  Freedom from control and detail</string>
+    <string name="tAb1i22">  Opportunities to influence others</string>
+    <string name="tAb1i23">  The collective estimate abilities</string>
+    <string name="tAb1i24">  Opportunity to turn words into action</string>
+    <string name="tAb1i25">  Show the positives and give praise</string>
+    <string name="tAb1i26">  Hamas reaction towards ideas</string>
+
+    <string name="tAb1i27" translatable="false">Needs People To Advance Him</string>
+
+    <string name="tAb1i28">  Followup details</string>
+    <string name="tAb1i29">  Logical ideas</string>
+    <string name="tAb1i30">  Focused on the task</string>
+
+    <string name="tAb1i31" translatable="false">Aspects Of Personal Growth</string>
+
+    <string name="tAb1i32">  To better control at the time</string>
+    <string name="tAb1i33">  Objectivity in decision making</string>
+    <string name="tAb1i34">  Deliberation before work</string>
+
+    <string name="tAb1i35" translatable="false">How to connect with him?</string>
+
+    <string name="tAb1i36">  Be positive and friendly</string>
+    <string name="tAb1i37">  Gave them praise</string>
+    <string name="tAb1i38">  He stressed the entitlement</string>
+    <string name="tAb1i39">  Give them a sense of "I need you."</string>
+
+    <string name="tAb1i40" translatable="false">How to persuade him?</string>
+
+    <string name="tAb1i41">  Became agitated, excited</string>
+    <string name="tAb1i42">  Participated tests to important people</string>
+    <string name="tAb1i43">  Answer to their question, "What are the gains?"</string>
+
+    <string name="tAb1i44" translatable="false"> How to motivate him?</string>
+
+    <string name="tAb1i45">  Consult and exchange views with them on ideas, projects and people</string>
+    <string name="tAb1i46">  Admitted by their effort in front of others</string>
+    <string name="tAb1i47">  Make them find merrier time</string>
+
+    <string name="tAb1i48" translatable="false"> How to disagree with him?</string>
+
+    <string name="tAb1i49">  Allow the passage of time has become enthusiastic about many things will be transferred to do something else</string>
+
+    <string name="tAb1i50" translatable="false">The Behaviors Can Be Observed In</string>
+
+    <string name="tAb1i51"> Purchases: Take quick decisions, Spicy products, impulsive </string>
+    <string name="tAb1i52"> Change: Fast so it can not be seen</string>
+    <string name="tAb1i53"> Conflicts: Run away from conflicts, attack under pressure</string>
+    <string name="tAb1i54"> Leadership: Looks around, radiates to others</string>
+    <string name="tAb1i55"> The office shape: Contemporary, a memorandum of tests and trials </string>
+    <string name="tAb1i56"> Movements: Most of emotions and other movements</string>
+    <string name="tAb1i57"> Goals: Puts a lot of them and achieves little. There is intention without planning</string>
+    <string name="tAb1i58"> Speeches: Many words, enthusiastic, focused on people </string>
+    <string name="tAb1i59"> Strategy: It lacks organization / involved in too many things</string>
+    <string name="tAb1i60"> Readings: Fiction, wrote a private improving self</string>
+    <string name="tAb1i61"> Risks: Takes risks moderately</string>
+    <string name="tAb1i62"> rules: Not minded it, break it deliberately</string>
+    <string name="tAb1i63"> standing: Tends to forward, the two men are afar, both hands in the enclaves</string>
+    <string name="tAb1i64"> What removes stress: interact, people surrounded by</string>
+    <string name="tAb1i65"> On the phone: long talks, prolongs the words</string>
+    <string name="tAb1i66"> Speaking with others: long talks with people, not listening very well the</string>
+    <string name="tAb1i67"> The way he walks: fluctuates between things, tends to delving deep</string>
+
+
+    <string name="tAb1s1" translatable="false">Strength Points</string>
+
+    <string name="tAb1s2">supports / Encourages</string>
+    <string name="tAb1s3">loyal</string>
+    <string name="tAb1s4">stable</string>
+    <string name="tAb1s5">Reliably</string>
+    <string name="tAb1s6">Acceptable to the others</string>
+    <string name="tAb1s7">He has a willingness to serve others </string>
+    <string name="tAb1s8">A good listener</string>
+    <string name="tAb1s9">Built relationships</string>
+
+    <string name="tAb1s10" translatable="false">Weakness Points</string>
+
+    <string name="tAb1s11">Resist rapid change</string>
+    <string name="tAb1s12">Overly forgiving</string>
+    <string name="tAb1s13">Inconclusive</string>
+    <string name="tAb1s14">Indirect with others</string>
+    <string name="tAb1s15">Uncommitted to dates</string>
+    <string name="tAb1s16">Delaying</string>
+    <string name="tAb1s17">Avoid conflict</string>
+    <string name="tAb1s18">lacks entrepreneurial spirit</string>
+
+    <string name="tAb1s19" translatable="false">The Ideal Situation</string>
+
+    <string name="tAb1s20">true Appreciation</string>
+    <string name="tAb1s21">less Conflict</string>
+    <string name="tAb1s22">Feeling secure</string>
+    <string name="tAb1s23">Recognition of work</string>
+    <string name="tAb1s24">Specific areas</string>
+    <string name="tAb1s25">Traditional way in doing things </string>
+    <string name="tAb1s26">Opportunities for the development of relations</string>
+
+    <string name="tAb1s27" translatable="false">Needs People To Advance Him</string>
+
+    <string name="tAb1s28">A large force in front of the new challenges</string>
+    <string name="tAb1s29">Help to solve difficult problems</string>
+    <string name="tAb1s30">Innovation and Change </string>
+
+    <string name="tAb1s31" translatable="false">Aspects Of Personal Growth</string>
+
+    <string name="tAb1s32">Confront situations</string>
+    <string name="tAb1s33">be a leader</string>
+    <string name="tAb1s34">To think outside the box</string>
+
+    <string name="tAb1s35" translatable="false">How To Connect With Him?</string>
+
+    <string name="tAb1s36">Be friendly</string>
+    <string name="tAb1s37" translatable="false">Be patient</string>
+    <string name="tAb1s38">Deal with them simply</string>
+    <string name="tAb1s39">Stepped down a little bit about the goals</string>
+    <string name="tAb1s40">Do not press them</string>
+    <string name="tAb1s41">Let them respond in their own way</string>
+
+    <string name="tAb1s42">How To Persuade Him</string>
+
+    <string name="tAb1s43">answer on why</string>
+    <string name="tAb1s44" translatable="false">Be friendly and warm companion</string>
+    <string name="tAb1s45">Spend time with them</string>
+    <string name="tAb1s46">Answer a question of what you want to change things</string>
+
+    <string name="tAb1s47" translatable="false"> How To Motivate Him?</string>
+
+    <string name="tAb1s48">Important to work things out together</string>
+    <string name="tAb1s49">Always maintained a relationship</string>
+    <string name="tAb1s50">Let them in peace and few conflicts</string>
+
+    <string name="tAb1s51"> How To Disagree With Him?</string>
+
+    <string name="tAb1s52" translatable="false">Focus on the relation</string>
+    <string name="tAb1s53">Spend time to convince them that the lack of agreement does not spoil the relationship</string>
+
+    <string name="tAb1s54" translatable="false">The Behaviors Can Be Observed In</string>
+
+    <string name="tAb1s55"> Purchases: take slow decisions traditional products </string>
+    <string name="tAb1s56"> Change: he don\'t like change needs to be alert in order to improve</string>
+    <string name="tAb1s57"> Conflicts: Explain and then accept</string>
+    <string name="tAb1s58"> Leadership: not in a hurry</string>
+    <string name="tAb1s59"> The office shape: family portraits family atmosphere</string>
+    <string name="tAb1s60"> Movements: he will  use hands but there are not many movements</string>
+    <string name="tAb1s61"> Goals: putting short term goals and targets a lowrisk list of daily activity </string>
+    <string name="tAb1s62"> Speeches: speeches long and too much information </string>
+    <string name="tAb1s63"> Strategy: it is often unstructured degree of chaos</string>
+    <string name="tAb1s64"> Readings: stories about people Poetry but nonfiction</string>
+    <string name="tAb1s65"> Risks: Medium to low</string>
+    <string name="tAb1s66"> rules: follow the laws that have proved successful with time</string>
+    <string name="tAb1s67"> standing: leaning back his hand in a pocket or behind the back </string>
+    <string name="tAb1s68"> What removes stress: Hot shower</string>
+    <string name="tAb1s69"> On the phone: An interesting and delightfully response</string>
+    <string name="tAb1s70"> Speaking with others: delightfully, not rude and listens before he speaks</string>
+    <string name="tAb1s71"> The way he walks: Constant easy steps (without effort)</string>
+
+
+    <string name="tAb1c1" translatable="false">Strength Points</string>
+
+    <string name="tAb1c2">  organizer</string>
+    <string name="tAb1c3">  disciplined</string>
+    <string name="tAb1c4">  scanned</string>
+    <string name="tAb1c5">  Analyst</string>
+    <string name="tAb1c6">  capable </string>
+    <string name="tAb1c7">  specific</string>
+    <string name="tAb1c8">  Good speaker</string>
+    <string name="tAb1c9">  Built relationships</string>
+
+    <string name="tAb1c10" translatable="false">Weakness points</string>
+
+    <string name="tAb1c11">  Overused in reserve</string>
+    <string name="tAb1c12">  Overly strict</string>
+    <string name="tAb1c13">  Lacks spontaneous</string>
+    <string name="tAb1c14">  Sensitive to criticism</string>
+    <string name="tAb1c15">  The attention to detail in an exaggerated manner</string>
+    <string name="tAb1c16">  Looking for flaws</string>
+    <string name="tAb1c17">  Misbeliever </string>
+    <string name="tAb1c18">  Pessimistic</string>
+
+    <string name="tAb1c19" translatable="false">The deal Situation</string>
+
+    <string name="tAb1c20">capable of concentrate on details</string>
+    <string name="tAb1c21">Opportunities criticism</string>
+    <string name="tAb1c22">Compatible with the surrounding environment</string>
+    <string name="tAb1c23">Analysis capability</string>
+    <string name="tAb1c24">Work descriptions accurately</string>
+    <string name="tAb1c25">Opportunities to plan carefully</string>
+    <string name="tAb1c26">had the time to do things the right way </string>
+    <string name="tAb1c27">Opportunities broadcasting tranquility</string>
+
+    <string name="tAb1c28" translatable="false">Needs People To Advance Him</string>
+
+    <string name="tAb1c29">fast decision making</string>
+    <string name="tAb1c30">optimism</string>
+    <string name="tAb1c31">Helping to convince others</string>
+
+    <string name="tAb1c32" translatable="false">Aspects Of Personal Growth</string>
+
+    <string name="tAb1c33">Be more open with emotions </string>
+    <string name="tAb1c34">Increase personal confidence</string>
+    <string name="tAb1c35">Be more optimistic</string>
+
+    <string name="tAb1c36" translatable="false">How To Connect With Him?</string>
+
+    <string name="tAb1c37">Gave them clear facts</string>
+    <string name="tAb1c38">Symptoms goals objectively</string>
+    <string name="tAb1c39">Do not rush</string>
+    <string name="tAb1c40">Be specific and accurate</string>
+
+    <string name="tAb1c41" translatable="false">How To Persuade Him?</string>
+
+    <string name="tAb1c42">It is important for them how it works properly</string>
+    <string name="tAb1c43">The most important step by step how it is work</string>
+    <string name="tAb1c44">answer the question of how you want me to do this</string>
+
+    <string name="tAb1c45" translatable="false"> How To Motivate Him?</string>
+
+    <string name="tAb1c46">It is important how to perform it in the best way</string>
+    <string name="tAb1c47">Be close to them in work</string>
+    <string name="tAb1c48">Give them time to work things the right way</string>
+
+    <string name="tAb1c49" translatable="false"> How To Disagree With Him?</string>
+
+    <string name="tAb1c50">Focus on the facts</string>
+    <string name="tAb1c51">Collect your facts they will not change their minds appeals spirited or emotional to speak</string>
+
+    <string name="tAb1c52" translatable="false">The Behaviors Can Be Observed In</string>
+
+    <string name="tAb1c53"> Purchases:  make decisions slowly guaranteed products </string>
+    <string name="tAb1c54"> Change: worry about the results of the change</string>
+    <string name="tAb1c55"> Conflicts: avoid conflicts</string>
+    <string name="tAb1c56"> Leadership: quietly follows the rules</string>
+    <string name="tAb1c57"> The office shape: graphs / tables recruit</string>
+    <string name="tAb1c58"> Movements: conservative, very few or there may be no movements of their hands</string>
+    <string name="tAb1c59"> Goals: sets targets guaranteed applied to many areas  </string>
+    <string name="tAb1c60"> Speeches: at the core consisting mostly on facts</string>
+    <string name="tAb1c61"> Strategy: everything is in place</string>
+    <string name="tAb1c62"> Readings: nonfiction specialized newspapers</string>
+    <string name="tAb1c63"> Risks: Low</string>
+    <string name="tAb1c64"> rules: According to the book is found</string>
+    <string name="tAb1c65"> standing: leaflets arms of one hand on the chin</string>
+    <string name="tAb1c66"> What removes stress: alone time</string>
+    <string name="tAb1c67"> On the phone: no chattered  at the core</string>
+    <string name="tAb1c68"> Speaking with others: direct / clear</string>
+    <string name="tAb1c69"> The way he walks: in a straight line</string>
+
+    <string name="yourd">Your Result: D</string>
+    <string name="youri">Your Result: I</string>
+    <string name="yours">Your Result: S</string>
+    <string name="yourc">Your Result: C</string>
+
+    <string name="ivideoresult">5I33S-_RY8Q</string>
+    <string name="svideoresult">ajez4Fj4S1A</string>
+    <string name="cvideoresult">XLmJIqowmxI</string>
+    <string name="dvideoresult" translatable="false">vSlxpSSf7sc</string>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7864537676903385/7692177750</string>
+
+
+    <string name="abouttxt">DISC is a behavior assessment tool based on the DISC theory of psychologist William Moulton Marston, which centers on four different behavioral traits, which today are called: dominance, influence, steadiness, and compliance. </string>
+    <string name="disc"> </string>
+    <string name="developers">Developed by :</string>
+    <string name="names">Pola Alper - Kerolos G. Samy</string>
+
+    <string name="cyp">choose your personality</string>
+
+    <string name="choose_language" translatable="false">Choose language</string>
+    <string-array name="language" translatable="false">
+        <item>عربى</item>
+        <item>English</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_personalities" translatable="false">Personalities</string>
+
+    <string name="co1" translatable="false">1</string>
+    <string name="co2" translatable="false">2</string>
+    <string name="co3" translatable="false">3</string>
+    <string name="co4" translatable="false">4</string>
+    <string name="co5" translatable="false">5</string>
+    <string name="co6" translatable="false">6</string>
+    <string name="co7" translatable="false">7</string>
+    <string name="co8" translatable="false">8</string>
+    <string name="co9" translatable="false">9</string>
+    <string name="co10" translatable="false">10</string>
+    <string name="co11" translatable="false">11</string>
+    <string name="co12" translatable="false">12</string>
+    <string name="co13" translatable="false">13</string>
+    <string name="co14" translatable="false">14</string>
+    <string name="co15" translatable="false">15</string>
+    <string name="co16" translatable="false">16</string>
+    <string name="co17" translatable="false">17</string>
+    <string name="co18" translatable="false">18</string>
+    <string name="co19" translatable="false">19</string>
+    <string name="co20" translatable="false">20</string>
+    <string name="co21" translatable="false">21</string>
+    <string name="co22" translatable="false">22</string>
+    <string name="co23" translatable="false">23</string>
+    <string name="co24" translatable="false">24</string>
+    <string name="start">start</string>
+
+
+</resources>

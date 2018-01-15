@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cas">
+
+        <item>@string/tAb1c2</item>
+        <item>@string/tAb1c3</item>
+        <item>@string/tAb1c4</item>
+        <item>@string/tAb1c5</item>
+        <item>@string/tAb1c6</item>
+        <item>@string/tAb1c7</item>
+        <item>@string/tAb1c8</item>
+        <item>@string/tAb1c9</item>
+    </string-array>
+
+    <string-array name="caw">
+        <item>@string/tAb1c11</item>
+        <item>@string/tAb1c12</item>
+        <item>@string/tAb1c13</item>
+        <item>@string/tAb1c14</item>
+        <item>@string/tAb1c15</item>
+        <item>@string/tAb1c16</item>
+        <item>@string/tAb1c17</item>
+        <item>@string/tAb1c18</item>
+    </string-array>
+
+    <string-array name="cai">
+        <item>@string/tAb1c20</item>
+        <item>@string/tAb1c21</item>
+        <item>@string/tAb1c22</item>
+        <item>@string/tAb1c23</item>
+        <item>@string/tAb1c24</item>
+        <item>@string/tAb1c25</item>
+        <item>@string/tAb1c26</item>
+        <item>@string/tAb1c27</item>
+    </string-array>
+
+
+    <string-array name="can">
+
+        <item>@string/tAb1c29</item>
+        <item>@string/tAb1c30</item>
+        <item>@string/tAb1c31</item>
+    </string-array>
+    <string-array name="cae">
+        <item>@string/tAb1c33</item>
+        <item>@string/tAb1c34</item>
+        <item>@string/tAb1c35</item>
+    </string-array>
+    <string-array name="cac">
+
+
+        <item>@string/tAb1c37</item>
+        <item>@string/tAb1c38</item>
+        <item>@string/tAb1c39</item>
+        <item>@string/tAb1c40</item>
+
+    </string-array>
+    <string-array name="aph">
+
+        <item>@string/tAb1c42</item>
+        <item>@string/tAb1c43</item>
+        <item>@string/tAb1c44</item>
+
+
+    </string-array>
+
+    <string-array name="amh">
+        <item>@string/tAb1c46</item>
+        <item>@string/tAb1c47</item>
+        <item>@string/tAb1c48</item>
+
+
+    </string-array>
+
+    <string-array name="adh">
+        <item>@string/tAb1c50</item>
+        <item>@string/tAb1c51</item>
+    </string-array>
+    <string-array name="am">
+
+        <item>@string/tAb1c53</item>
+        <item>@string/tAb1c54</item>
+        <item>@string/tAb1c55</item>
+        <item>@string/tAb1c56</item>
+        <item>@string/tAb1c57</item>
+        <item>@string/tAb1c58</item>
+        <item>@string/tAb1c59</item>
+        <item>@string/tAb1c60</item>
+        <item>@string/tAb1c61</item>
+        <item>@string/tAb1c62</item>
+        <item>@string/tAb1c63</item>
+        <item>@string/tAb1c64</item>
+        <item>@string/tAb1c65</item>
+        <item>@string/tAb1c66</item>
+        <item>@string/tAb1c67</item>
+        <item>@string/tAb1c68</item>
+        <item>@string/tAb1c69</item>
+    </string-array>
+</resources>

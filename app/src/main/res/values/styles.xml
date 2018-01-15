@@ -1,0 +1,299 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        !-->
+    </style>
+
+    <style name="DTheme3" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="colorPrimary">#05b8f7</item>
+        <item name="colorPrimaryDark">#51c8f2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ITheme4" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="colorPrimary">#48b706</item>
+        <item name="colorPrimaryDark">#3e9b08</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="STheme5" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="colorPrimary">#fea202</item>
+        <item name="colorPrimaryDark">#f5b13b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CTheme6" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+
+
+        <item name="colorPrimary">#fd1b0a</item>
+        <item name="colorPrimaryDark">#f44336</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="disciv">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:src">@drawable/disclogove</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_above">@+id/cyp</item>
+    </style>
+<style name="cyp">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:gravity">center</item>
+    <item name="android:text">@string/cyp</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:textColor">@android:color/darker_gray</item>
+</style>
+    <style name="count">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:layout_above">@+id/button_d</item>
+    </style>
+
+    <style name="button_D">
+
+
+        <item name="android:background">@drawable/dshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_above">@+id/button_i</item>
+
+
+    </style>
+    <style name="start">
+
+
+        <item name="android:background">@drawable/start</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_above">@+id/button_i</item>
+
+
+    </style>
+
+    <style name="arabic">
+
+
+        <item name="android:background">@drawable/arabic</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_above">@+id/button_i</item>
+
+
+    </style>
+
+    <style name="eng">
+
+
+    <item name="android:background">@drawable/eng</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">40dp</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textStyle">italic</item>
+
+    <item name="android:textSize">25sp</item>
+    <item name="android:layout_above">@+id/button_i</item>
+    </style>
+    <style name="d_result">
+
+
+        <item name="android:background">@drawable/dshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="button_I">
+
+        <item name="android:background">@drawable/ishape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+     >
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_above">@+id/button_s</item>
+
+
+    </style>
+
+    <style name="i_result">
+
+        <item name="android:background">@drawable/ishape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+
+    <style name="button_s">
+        <item name="android:background">@drawable/sshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_above">@+id/button_c</item>
+
+    </style>
+
+    <style name="s_result">
+        <item name="android:background">@drawable/sshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="button_c">
+        <item name="android:background">@drawable/cshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+       >
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">76dp</item>
+
+
+    </style>
+
+    <style name="c_result">
+        <item name="android:background">@drawable/cshape</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">italic</item>
+
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+
+</resources>

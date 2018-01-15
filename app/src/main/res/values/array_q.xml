@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="q_d">
+
+        <item>@string/d1</item>
+        <item>@string/d2</item>
+        <item>@string/d3</item>
+        <item>@string/d4</item>
+        <item>@string/d5</item>
+        <item>@string/d6</item>
+        <item>@string/d7</item>
+        <item>@string/d8</item>
+        <item>@string/d9</item>
+        <item>@string/d10</item>
+        <item>@string/d11</item>
+        <item>@string/d12</item>
+        <item>@string/d13</item>
+        <item>@string/d14</item>
+        <item>@string/d15</item>
+        <item>@string/d16</item>
+        <item>@string/d17</item>
+        <item>@string/d18</item>
+        <item>@string/d19</item>
+        <item>@string/d20</item>
+        <item>@string/d21</item>
+        <item>@string/d22</item>
+        <item>@string/d23</item>
+        <item>@string/d24</item>
+    </string-array>
+
+    <string-array name="q_i">
+
+        <item>@string/i1</item>
+        <item>@string/i2</item>
+        <item>@string/i3</item>
+        <item>@string/i4</item>
+        <item>@string/i5</item>
+        <item>@string/i6</item>
+        <item>@string/i7</item>
+        <item>@string/i8</item>
+        <item>@string/i9</item>
+        <item>@string/i10</item>
+        <item>@string/i11</item>
+        <item>@string/i12</item>
+        <item>@string/i13</item>
+        <item>@string/i14</item>
+        <item>@string/i15</item>
+        <item>@string/i16</item>
+        <item>@string/i17</item>
+        <item>@string/i18</item>
+        <item>@string/i19</item>
+        <item>@string/i20</item>
+        <item>@string/i21</item>
+        <item>@string/i22</item>
+        <item>@string/i23</item>
+        <item>@string/i24</item>
+    </string-array>
+    <string-array name="q_s">
+
+        <item>@string/s1</item>
+        <item>@string/s2</item>
+        <item>@string/s3</item>
+        <item>@string/s4</item>
+        <item>@string/s5</item>
+        <item>@string/s6</item>
+        <item>@string/s7</item>
+        <item>@string/s8</item>
+        <item>@string/s9</item>
+        <item>@string/s10</item>
+        <item>@string/s11</item>
+        <item>@string/s12</item>
+        <item>@string/s13</item>
+        <item>@string/s14</item>
+        <item>@string/s15</item>
+        <item>@string/s16</item>
+        <item>@string/s17</item>
+        <item>@string/s18</item>
+        <item>@string/s19</item>
+        <item>@string/s20</item>
+        <item>@string/s21</item>
+        <item>@string/s22</item>
+        <item>@string/s23</item>
+        <item>@string/s24</item>
+    </string-array>
+    <string-array name="q_c">
+
+        <item>@string/c1</item>
+        <item>@string/c2</item>
+        <item>@string/c3</item>
+        <item>@string/c4</item>
+        <item>@string/c5</item>
+        <item>@string/c6</item>
+        <item>@string/c7</item>
+        <item>@string/c8</item>
+        <item>@string/c9</item>
+        <item>@string/c10</item>
+        <item>@string/c11</item>
+        <item>@string/c12</item>
+        <item>@string/c13</item>
+        <item>@string/c14</item>
+        <item>@string/c15</item>
+        <item>@string/c16</item>
+        <item>@string/c17</item>
+        <item>@string/c18</item>
+        <item>@string/c19</item>
+        <item>@string/c20</item>
+        <item>@string/c21</item>
+        <item>@string/c22</item>
+        <item>@string/c23</item>
+        <item>@string/c24</item>
+    </string-array>
+
+    <string-array name="counter">
+
+        <item>@string/co1</item>
+        <item>@string/co2</item>
+        <item>@string/co3</item>
+        <item>@string/co4</item>
+        <item>@string/co5</item>
+        <item>@string/co6</item>
+        <item>@string/co7</item>
+        <item>@string/co8</item>
+        <item>@string/co9</item>
+        <item>@string/co10</item>
+        <item>@string/co11</item>
+        <item>@string/co12</item>
+        <item>@string/co13</item>
+        <item>@string/co14</item>
+        <item>@string/co15</item>
+        <item>@string/co16</item>
+        <item>@string/co17</item>
+        <item>@string/co18</item>
+        <item>@string/co19</item>
+        <item>@string/co20</item>
+        <item>@string/co21</item>
+        <item>@string/co22</item>
+        <item>@string/co23</item>
+        <item>@string/co24</item>
+    </string-array>
+
+</resources>

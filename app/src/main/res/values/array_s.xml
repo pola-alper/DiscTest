@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sas">
+
+        <item>@string/tAb1s2</item>
+        <item>@string/tAb1s3</item>
+        <item>@string/tAb1s4</item>
+        <item>@string/tAb1s5</item>
+        <item>@string/tAb1s6</item>
+        <item>@string/tAb1s7</item>
+        <item>@string/tAb1s8</item>
+        <item>@string/tAb1s9</item>
+    </string-array>
+
+    <string-array name="saw">
+        <item>@string/tAb1s11</item>
+        <item>@string/tAb1s12</item>
+        <item>@string/tAb1s13</item>
+        <item>@string/tAb1s14</item>
+        <item>@string/tAb1s15</item>
+        <item>@string/tAb1s16</item>
+        <item>@string/tAb1s17</item>
+        <item>@string/tAb1s18</item>
+    </string-array>
+
+    <string-array name="sai">
+        <item>@string/tAb1s20</item>
+        <item>@string/tAb1s21</item>
+        <item>@string/tAb1s22</item>
+        <item>@string/tAb1s23</item>
+        <item>@string/tAb1s24</item>
+        <item>@string/tAb1s25</item>
+        <item>@string/tAb1s26</item>
+    </string-array>
+
+
+    <string-array name="san">
+        <item>@string/tAb1s28</item>
+        <item>@string/tAb1s29</item>
+        <item>@string/tAb1s30</item>
+    </string-array>
+    <string-array name="sae">
+        <item>@string/tAb1s32</item>
+        <item>@string/tAb1s33</item>
+        <item>@string/tAb1s34</item>
+    </string-array>
+    <string-array name="sac">
+
+        <item>@string/tAb1s36</item>
+        <item>@string/tAb1i37</item>
+        <item>@string/tAb1s38</item>
+        <item>@string/tAb1s39</item>
+        <item>@string/tAb1s40</item>
+        <item>@string/tAb1s41</item>
+        <item>@string/tAb1s42</item>
+        <item>@string/tAb1s43</item>
+    </string-array>
+    <string-array name="saph">
+        <item>@string/tAb1s45</item>
+        <item>@string/tAb1s46</item>
+
+    </string-array>
+
+    <string-array name="samh">
+        <item>@string/tAb1s48</item>
+        <item>@string/tAb1s49</item>
+        <item>@string/tAb1s50</item>
+        <item>@string/tAb1s51</item>
+
+    </string-array>
+
+    <string-array name="sadh">
+        <item>@string/tAb1s53</item>
+    </string-array>
+    <string-array name="sam">
+
+
+        <item>@string/tAb1s55</item>
+        <item>@string/tAb1s56</item>
+        <item>@string/tAb1s57</item>
+        <item>@string/tAb1s58</item>
+        <item>@string/tAb1s59</item>
+        <item>@string/tAb1s60</item>
+        <item>@string/tAb1s61</item>
+        <item>@string/tAb1s62</item>
+        <item>@string/tAb1s63</item>
+        <item>@string/tAb1s64</item>
+        <item>@string/tAb1s65</item>
+        <item>@string/tAb1s66</item>
+        <item>@string/tAb1s67</item>
+        <item>@string/tAb1s68</item>
+        <item>@string/tAb1s69</item>
+        <item>@string/tAb1s70</item>
+        <item>@string/tAb1s71</item>
+    </string-array>
+</resources>
