@@ -1,10 +1,11 @@
-package com.example.keronpola.DiscTest.Activities
+package com.example.keronpola.Activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Activities.LanChangeK
 import com.example.keronpola.DiscTest.Util.RateThisApp
 
 

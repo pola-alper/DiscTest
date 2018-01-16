@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.analsis.keronpola.DiscTest"
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 26
         versionCode 1
         versionName "1.1"
     }
@@ -32,7 +32,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
     compile files('libs/YouTubeAndroidPlayerApi.jar')
-    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:11.8.0'
     compile 'com.google.android.exoplayer:exoplayer:r1.5.9'
 
 

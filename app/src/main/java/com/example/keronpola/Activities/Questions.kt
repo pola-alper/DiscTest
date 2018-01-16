@@ -1,16 +1,15 @@
 package com.example.keronpola.DiscTest.Activities
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import android.view.View
 import android.widget.Toast
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
 import com.example.keronpola.DiscTest.Util.Logic
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.InterstitialAd
 import kotlinx.android.synthetic.main.activity_question.*
 
 class Questions : BaseActivityK() {
@@ -31,13 +30,20 @@ class Questions : BaseActivityK() {
     private lateinit var c_string: Array<String>
     private lateinit var count_string: Array<String>
 
-
+    internal lateinit var app: App
+    private lateinit var mInterstitialAd: InterstitialAd
 
     @SuppressLint("SetTextI18n")
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question)
-
+        app = application as App
+        app.loadAd(adViewQ)
+        mInterstitialAd = InterstitialAd(this)
+        app.load(mInterstitialAd)
+        if (mInterstitialAd.isLoaded) {
+            mInterstitialAd.show()
+        }
 
         logic = Logic()
         d_string = resources.getStringArray(R.array.q_d)
@@ -54,10 +60,6 @@ class Questions : BaseActivityK() {
 
         count!!.text = "1/24"
 
-
-        val mAdView = findViewById<View>(R.id.adView) as AdView
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
 
 
         button_d!!.setOnClickListener {
@@ -88,14 +90,24 @@ class Questions : BaseActivityK() {
             c++
         }
 
+        mInterstitialAd.adListener = object: AdListener() {
+            override fun onAdLoaded() {
+                mInterstitialAd.show()
+                // Code to be executed when an ad finishes loading.
+            }
 
+            override fun onAdFailedToLoad(errorCode: Int) {
+                app.load(mInterstitialAd)
+                // Code to be executed when an ad request fails.
+            }
+
+        }
     }
 
     override fun onBackPressed() {
         if (doubleBackToExitPressedOnce) {
             super.onBackPressed()
-            val window = Intent(this, StartActivity::class.java)
-            startActivity(window)
+         finish()
 
             return
         }

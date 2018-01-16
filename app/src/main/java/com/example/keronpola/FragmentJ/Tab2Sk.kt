@@ -11,8 +11,8 @@ import com.google.android.youtube.player.YouTubePlayerSupportFragment
 import kotlinx.android.synthetic.main.tab2s.view.*
 
 /**
- * Created by pola on 15-Jan-18.
- */
+* Created by pola on 15-Jan-18.
+*/
 
 
 class Tab2Sk : Fragment() {

@@ -4,18 +4,17 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.example.kerojesus.DiscTest.R
-import com.google.android.gms.ads.AdRequest
+import com.example.keronpola.DiscTest.Util.App
 import kotlinx.android.synthetic.main.activity_personalities.*
 
 class PersonalitiesK : AppCompatActivity() {
-
-private lateinit var adRequest:AdRequest
+    internal lateinit var app: App
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_personalities)
+        app = application as App
+        app.loadAd(adViewPer)
 
-       adRequest = AdRequest.Builder().build()
-        adView.loadAd(adRequest)
 
 
 
@@ -41,6 +40,7 @@ private lateinit var adRequest:AdRequest
             val window = Intent(this, ResultActivity_CK::class.java)
             startActivity(window)
         }
+
     }
 
 

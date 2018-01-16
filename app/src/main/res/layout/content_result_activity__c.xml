@@ -18,18 +18,16 @@
         android:text="@string/yourc"
         android:textColor="#ffffff"
         android:textSize="20dp"/>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
+    <LinearLayout
+        android:id="@+id/adViewC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="100dp"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id">
 
-    </com.google.android.gms.ads.AdView>
+        android:orientation="horizontal">
+
+    </LinearLayout>
 
 
 </RelativeLayout>

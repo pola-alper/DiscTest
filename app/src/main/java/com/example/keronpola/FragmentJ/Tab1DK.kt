@@ -17,14 +17,14 @@ import kotlinx.android.synthetic.main.tab1d.view.*
 
 
 /**
- * Created by pola on 2/2/2016.
- */
+* Created by pola on 2/2/2016.
+*/
 class Tab1DK : Fragment() {
     private lateinit var logic: Logic
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var view: View
+        val view: View
         val lf = activity!!.layoutInflater
         view = lf.inflate(R.layout.tab1d, container, false)
         val das = resources.getStringArray(R.array.das)

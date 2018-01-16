@@ -22,7 +22,7 @@ class Tab1Ik : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var view: View
+        val view: View
         val lf = activity!!.layoutInflater
         view = lf.inflate(R.layout.tab1i, container, false)
         val ias = resources.getStringArray(R.array.ias)

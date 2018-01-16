@@ -6,20 +6,21 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
-import com.google.android.gms.ads.AdRequest
 import kotlinx.android.synthetic.main.activity_contact__us.*
 
 class ContactUsK : BaseActivityK() {
 
+    internal lateinit var app: App
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contact__us)
-        val addrequst: AdRequest? = AdRequest.Builder().build()
-        adView.loadAd(addrequst)
+        app = application as App
+        app.loadAd(adViewcontact)
         setSupportActionBar(toolbar)
-        setuptoolbar()
+        setupToolBar()
 
 
         facebook.setOnClickListener {
@@ -36,13 +37,14 @@ class ContactUsK : BaseActivityK() {
             try {
                 startActivity(Intent.createChooser(i, "Send mail..."))
             } catch (x: android.content.ActivityNotFoundException) {
-                Toast.makeText(this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "There are no email clients installed.", Toast.LENGTH_SHORT).show()
             }
         }
         youtube.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCAKdfVYGGb4OIZNGYYZPZ5A/"))
             startActivity(i)
         }
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -54,7 +56,7 @@ class ContactUsK : BaseActivityK() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun setuptoolbar() {
+    private fun setupToolBar() {
         val actionBar = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
 

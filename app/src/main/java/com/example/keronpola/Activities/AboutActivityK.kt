@@ -3,22 +3,24 @@ package com.example.keronpola.DiscTest.Activities
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
-import com.google.android.gms.ads.AdRequest
 import kotlinx.android.synthetic.main.activity_about_k.*
 
 class AboutActivityK : BaseActivityK() {
+    internal lateinit var app: App
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_k)
-     val addrequst: AdRequest? = AdRequest.Builder().build()
-
-        adView.loadAd(addrequst)
+        app = application as App
+        app.loadAd(adViewabout)
         setSupportActionBar(toolbar)
-        setuptoolbar()
+        setupToolBar()
+
     }
 
-    fun setuptoolbar() {
+    private fun setupToolBar() {
         val actionBar = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
 

@@ -32,7 +32,7 @@ class PageAdapterS(fm: FragmentManager, internal var activity: Activity) : Fragm
     }//set the number of tabs
 
     override fun getPageTitle(position: Int): CharSequence? {
-        val l = Locale.getDefault()
+        Locale.getDefault()
         when (position) {
             0 -> return activity.resources.getString(R.string.description)
             1 ->

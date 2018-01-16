@@ -10,8 +10,8 @@ import com.example.keronpola.DiscTest.FragmentJ.Tab1CK
 import com.example.keronpola.DiscTest.FragmentJ.Tab2Ck
 
 /**
- * Created by pola on 2/6/2016.
- */
+* Created by pola on 2/6/2016.
+*/
 class PageAdapterC(fm: FragmentManager, private val activity: Activity) : FragmentPagerAdapter(fm) {
 
     override fun getItem(i: Int): Fragment? {

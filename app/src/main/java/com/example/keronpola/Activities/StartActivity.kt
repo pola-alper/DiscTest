@@ -6,22 +6,28 @@ import android.os.Bundle
 import android.view.View
 import android.widget.PopupMenu
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
 import com.example.keronpola.DiscTest.Util.RateThisApp
-import com.google.android.gms.ads.AdRequest
 import kotlinx.android.synthetic.main.activity_start.*
+
 
 class StartActivity : BaseActivityK(), View.OnClickListener {
     private var dialog: AlertDialog.Builder? = null
     private lateinit var PACKAGE_NAME: String
 
+    internal lateinit var app: App
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
         RateThisApp.showRateDialogIfNeeded(this)
 
-        val adRequest = AdRequest.Builder().build()
-        adView.loadAd(adRequest)
+        app = application as App
+        app.loadAd(adView)
+
+
+//        val adRequest = AdRequest.Builder().build()
+//        adView.loadAd(adRequest)
         PACKAGE_NAME = applicationContext.packageName
         btnstart.setOnClickListener(this)
 
@@ -37,21 +43,23 @@ class StartActivity : BaseActivityK(), View.OnClickListener {
                     R.id.per -> {
                         val kk = Intent(this, PersonalitiesK::class.java)
                         startActivity(kk)
+
                     }
                     R.id.lan -> {
                         val ss = Intent(this, LanChangeK::class.java)
                         startActivity(ss)
+                        finish()
                     }
                     R.id.rate -> {
-                        val rateapp= RateThisApp
-                        rateapp.showRateDialog(this)
+                        val rateApp = RateThisApp
+                        rateApp.showRateDialog(this)
                     }
                     R.id.about -> {
                         val ii = Intent(this, AboutActivityK::class.java)
                         startActivity(ii)
                     }
                     R.id.contact -> {
-                        val cc: Intent = Intent(this, ContactUsK::class.java)
+                        val cc = Intent(this, ContactUsK::class.java)
                         startActivity(cc)
                     }
                     R.id.share -> {
@@ -114,10 +122,18 @@ class StartActivity : BaseActivityK(), View.OnClickListener {
 
     override fun onClick(v: View) {
 
-        val p1 = Intent(this, Questions::class.java)
-        startActivity(p1)
+            val p1 = Intent(this, Questions::class.java)
+            startActivity(p1)
+
+
+
     }
 
+    override fun onResume() {
+        // TODO Auto-generated method stub
+        app.loadAd(adView)
+        super.onResume()
+    }
 
 }
 
