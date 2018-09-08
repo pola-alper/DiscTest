@@ -29,11 +29,10 @@ class ResultActivity_CK : BaseActivityK() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result_activity__c)
         app = application as App
-        adviewc = findViewById(R.id.adViewC)
         setSupportActionBar(findViewById(R.id.my_toolbar))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = resources.getString(R.string.personality_c)
-        app.loadAd(adviewc)
+        app.loadAd(adView)
         mInterstitialAd = InterstitialAd(this)
         app.load(mInterstitialAd)
         val cas = resources.getStringArray(R.array.cas)
@@ -79,26 +78,6 @@ class ResultActivity_CK : BaseActivityK() {
             }
 
         }
-        val share = findViewById<View>(R.id.fab) as FloatingActionButton
-        share.setOnClickListener {
-            val sendIntent = Intent()
-            sendIntent.action = Intent.ACTION_SEND
-            sendIntent.putExtra(Intent.EXTRA_TEXT,
-
-                    resources.getString(R.string.tAb1d1) + "\n" + spc.text + "\n"
-                            + resources.getString(R.string.tAb1d10) + "\n" + wpc.text + "\n"
-                            + resources.getString(R.string.tAb1d19) + "\n" + isc.text + "\n"
-                            + resources.getString(R.string.tAb1d27) + "\n" + nedc.text + "\n"
-                            + resources.getString(R.string.tAb1d31) + "\n" + aspc.text + "\n"
-                            + resources.getString(R.string.tAb1d35) + "\n" + htcc.text + "\n"
-                            + resources.getString(R.string.tAb1d40) + "\n" + htpc.text + "\n"
-                            + resources.getString(R.string.tAb1d43) + "\n" + htmc.text + "\n"
-                            + resources.getString(R.string.tAb1d46) + "\n" + htdc.text + "\n"
-                            + resources.getString(R.string.tAb1d50) + "\n" + boc.text
-            )
-            sendIntent.type = "text/plain"
-            startActivity(sendIntent)
-        }
 
     }
 
@@ -106,6 +85,7 @@ class ResultActivity_CK : BaseActivityK() {
         menuInflater.inflate(R.menu.action_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.action_share -> {
             val sendIntent = Intent()
@@ -135,6 +115,7 @@ class ResultActivity_CK : BaseActivityK() {
             super.onOptionsItemSelected(item)
         }
     }
+
     override fun onBackPressed() {
         finish()
         super.onBackPressed()
