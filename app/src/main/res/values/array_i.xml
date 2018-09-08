@@ -55,7 +55,7 @@
         <item>@string/tAb1i41</item>
         <item>@string/tAb1i42</item>
         <item>@string/tAb1i43</item>
-</string-array>
+    </string-array>
 
     <string-array name="iamh">
         <item>@string/tAb1i45</item>

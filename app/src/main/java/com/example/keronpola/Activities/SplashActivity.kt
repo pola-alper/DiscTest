@@ -32,6 +32,6 @@ class SplashActivity : AppCompatActivity() {
         super.onStart()
         RateThisApp.onStart(this)
     }
-    }
+}
 
 

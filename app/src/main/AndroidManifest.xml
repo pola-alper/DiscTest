@@ -11,8 +11,8 @@
         android:xlargeScreens="true" />
 
     <application
-        android:allowBackup="true"
         android:name="com.example.keronpola.DiscTest.Util.App"
+        android:allowBackup="true"
         android:configChanges="orientation|screenSize"
         android:icon="@drawable/disclogove"
         android:label="@string/title_activity_main22"
@@ -38,31 +38,31 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_DK"
+            android:name="com.example.keronpola.Activities.ResultActivityDK"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_result_activity__d"
             android:screenOrientation="portrait"
             android:theme="@style/DTheme3" />
         <activity
-            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_IK"
+            android:name="com.example.keronpola.Activities.ResultActivityIK"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_result_activity__i"
             android:screenOrientation="portrait"
             android:theme="@style/ITheme4" />
         <activity
-            android:name="com.example.keronpola.DiscTest.Activities.ResultActivity_SK"
+            android:name="com.example.keronpola.Activities.ResultActivitySK"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_result_activity__s"
             android:screenOrientation="portrait"
             android:theme="@style/STheme5" />
         <activity
-            android:name="com.example.keronpola.Activities.ResultActivity_CK"
+            android:name="com.example.keronpola.Activities.ResultActivityCK"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_result_activity__c"
             android:screenOrientation="portrait"
             android:theme="@style/CTheme6" />
         <activity
-            android:name="com.example.keronpola.Activities.ContactUsK"
+            android:name="com.example.keronpola.DiscTest.Activities.ContactUsK"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_contact__us"
             android:screenOrientation="portrait"
@@ -79,6 +79,7 @@
             android:theme="@style/AppTheme" />
         <activity android:name="com.example.keronpola.DiscTest.Activities.AboutActivityK" />
         <activity android:name="com.example.keronpola.Activities.LanChangeK" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

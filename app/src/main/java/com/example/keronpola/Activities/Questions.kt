@@ -90,7 +90,7 @@ class Questions : BaseActivityK() {
             c++
         }
 
-        mInterstitialAd.adListener = object: AdListener() {
+        mInterstitialAd.adListener = object : AdListener() {
             override fun onAdLoaded() {
                 mInterstitialAd.show()
                 // Code to be executed when an ad finishes loading.
@@ -107,7 +107,7 @@ class Questions : BaseActivityK() {
     override fun onBackPressed() {
         if (doubleBackToExitPressedOnce) {
             super.onBackPressed()
-         finish()
+            finish()
 
             return
         }
@@ -136,7 +136,7 @@ class Questions : BaseActivityK() {
 
         }
         button_d!!.text = ""
-        button_d!!.text =  button_d!!.text.toString() + d_string[d_loop]
+        button_d!!.text = button_d!!.text.toString() + d_string[d_loop]
         button_i!!.text = ""
         button_i!!.text = button_i!!.text.toString() + i_string[i_loop]
         button_s!!.text = ""

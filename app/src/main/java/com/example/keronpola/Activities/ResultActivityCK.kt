@@ -3,26 +3,20 @@ package com.example.keronpola.Activities
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.LinearLayout
 import com.example.kerojesus.DiscTest.R
 import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
 import com.example.keronpola.DiscTest.Util.Logic
 import com.google.android.gms.ads.AdListener
-import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.InterstitialAd
 import kotlinx.android.synthetic.main.activity_result_activity__c.*
 
-class ResultActivity_CK : BaseActivityK() {
+@SuppressLint("Registered")
+class ResultActivityCK : BaseActivityK() {
     private lateinit var mInterstitialAd: InterstitialAd
     private lateinit var logic: Logic
-    private lateinit var adviewc: LinearLayout
-
-
     internal lateinit var app: App
     @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {

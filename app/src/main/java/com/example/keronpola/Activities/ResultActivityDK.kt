@@ -1,10 +1,9 @@
-package com.example.keronpola.DiscTest.Activities
+package com.example.keronpola.Activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.LinearLayout
 import com.example.kerojesus.DiscTest.R
 import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
@@ -14,10 +13,10 @@ import com.google.android.gms.ads.InterstitialAd
 import kotlinx.android.synthetic.main.activity_result_activity__d.*
 
 /**
-* Created by pola on 11-Jan-18.
-*/
+ * Created by pola on 11-Jan-18.
+ */
 
-class ResultActivity_DK : BaseActivityK() {
+class ResultActivityDK : BaseActivityK() {
     private lateinit var mInterstitialAd: InterstitialAd
     private lateinit var logic: Logic
     internal lateinit var app: App
@@ -66,7 +65,7 @@ class ResultActivity_DK : BaseActivityK() {
         logic.iterate(htdd, dadh)
 
         logic.iterate(bod, dam)
-        mInterstitialAd.adListener = object: AdListener() {
+        mInterstitialAd.adListener = object : AdListener() {
             override fun onAdLoaded() {
                 mInterstitialAd.show()
                 // Code to be executed when an ad finishes loading.
@@ -80,10 +79,12 @@ class ResultActivity_DK : BaseActivityK() {
         }
 
     }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.action_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.action_share -> {
             val sendIntent = Intent()

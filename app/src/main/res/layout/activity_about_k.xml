@@ -14,17 +14,17 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            android:background="@null"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:background="@null"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
     <LinearLayout
-        android:layout_margin="16dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="16dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -49,31 +49,30 @@
             android:id="@+id/developer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#ffff"
-
-
             android:text="@string/developers"
+
+
+            android:textColor="#ffff"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/names"
-            android:textColor="#ffff"
-
             android:layout_width="wrap_content"
+
             android:layout_height="wrap_content"
             android:text="@string/names"
+            android:textColor="#ffff"
             android:textSize="20sp" />
     </LinearLayout>
 
 
-        <LinearLayout
-            android:id="@+id/adViewabout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/adViewabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        </LinearLayout>
-
+    </LinearLayout>
 
 
 </LinearLayout>

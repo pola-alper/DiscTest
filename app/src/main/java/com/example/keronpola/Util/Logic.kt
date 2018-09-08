@@ -6,8 +6,11 @@ import android.support.v4.app.FragmentActivity
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
-import com.example.keronpola.Activities.ResultActivity_CK
-import com.example.keronpola.DiscTest.Activities.*
+import com.example.keronpola.Activities.ResultActivityCK
+import com.example.keronpola.Activities.ResultActivityDK
+import com.example.keronpola.Activities.ResultActivityIK
+import com.example.keronpola.Activities.ResultActivitySK
+import com.example.keronpola.DiscTest.Activities.Questions
 import com.google.android.youtube.player.YouTubeInitializationResult
 import com.google.android.youtube.player.YouTubePlayer
 import com.google.android.youtube.player.YouTubePlayerSupportFragment
@@ -19,24 +22,24 @@ public class Logic {
 
         if (d > i && d > s && d > c) {
 
-            val window = Intent(q1, ResultActivity_DK::class.java)
+            val window = Intent(q1, ResultActivityDK::class.java)
             q1.startActivity(window)
             q1.finish()
         }
         if (i > d && i > s && i > c) {
-            val window = Intent(q1, ResultActivity_IK::class.java)
+            val window = Intent(q1, ResultActivityIK::class.java)
             q1.startActivity(window)
             q1.finish()
 
         }
         if (s > i && s > d && s > c) {
-            val window = Intent(q1, ResultActivity_SK::class.java)
+            val window = Intent(q1, ResultActivitySK::class.java)
             q1.startActivity(window)
             q1.finish()
 
         }
         if (c > i && c > s && c > d) {
-            val window = Intent(q1, ResultActivity_CK::class.java)
+            val window = Intent(q1, ResultActivityCK::class.java)
             q1.startActivity(window)
             q1.finish()
 

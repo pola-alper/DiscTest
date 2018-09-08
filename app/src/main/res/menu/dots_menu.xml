@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/per"
-        android:title="@string/Personalities"/>
+        android:title="@string/Personalities" />
 
     <item
         android:id="@+id/lan"
-        android:title="@string/Language"/>
+        android:title="@string/Language" />
 
     <item
         android:id="@+id/rate"
-        android:title="@string/ReviewApp"/>
+        android:title="@string/ReviewApp" />
 
     <item
         android:id="@+id/about"
-        android:title="@string/about"/>
+        android:title="@string/about" />
     <item
         android:id="@+id/contact"
-        android:title="@string/Contact"/>
+        android:title="@string/Contact" />
     <item
         android:id="@+id/share"
         android:title="@string/ShareApp" />

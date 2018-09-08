@@ -28,19 +28,17 @@ class LanChangeK : AppCompatActivity() {
 
         english.setOnClickListener {
 
-                setNewLocale(LocaleManagerk.LANGUAGE_ENGLISH)
-
+            setNewLocale(LocaleManagerk.LANGUAGE_ENGLISH)
 
 
         }
         arabic.setOnClickListener {
 
 
-
-                setNewLocale(LocaleManagerk.LANGUAGE_ARABIC)
+            setNewLocale(LocaleManagerk.LANGUAGE_ARABIC)
 
         }
-        mInterstitialAd.adListener = object: AdListener() {
+        mInterstitialAd.adListener = object : AdListener() {
             override fun onAdLoaded() {
                 mInterstitialAd.show()
                 // Code to be executed when an ad finishes loading.

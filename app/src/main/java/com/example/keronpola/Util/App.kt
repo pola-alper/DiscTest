@@ -31,6 +31,7 @@ class App : Application() {
         load(mInterstitialAd)
 
     }
+
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(LocaleManagerk.setLocale(base))
         Log.d(TAG, "attachBaseContext")
@@ -56,14 +57,15 @@ class App : Application() {
             layAd.addView(adView)
         }, 100)
     }
-fun load(mInterstitialAd: InterstitialAd){
-    MobileAds.initialize(this,
-            "ca-app-pub-7864537676903385/1254576153")
+
+    fun load(mInterstitialAd: InterstitialAd) {
+        MobileAds.initialize(this,
+                "ca-app-pub-7864537676903385/1254576153")
 
 
-    mInterstitialAd.adUnitId =
-            "ca-app-pub-7864537676903385/1254576153"
-    mInterstitialAd.loadAd(AdRequest.Builder().build())
+        mInterstitialAd.adUnitId =
+                "ca-app-pub-7864537676903385/1254576153"
+        mInterstitialAd.loadAd(AdRequest.Builder().build())
 
-}
+    }
 }

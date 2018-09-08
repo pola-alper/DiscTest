@@ -10,8 +10,8 @@ import com.example.kerojesus.DiscTest.R
 import java.util.*
 
 /**
-* Created by pola on 2/22/2016.
-*/
+ * Created by pola on 2/22/2016.
+ */
 
 
 /**
@@ -37,10 +37,10 @@ object RateThisApp {
 
     @SuppressLint("ApplySharedPref")
             /**
-     * Call this API when the launcher activity is launched.<br></br>
-     * It is better to call this API in onStart() of the launcher activity.
-     * @param context Context
-     */
+             * Call this API when the launcher activity is launched.<br></br>
+             * It is better to call this API in onStart() of the launcher activity.
+             * @param context Context
+             */
     fun onStart(context: Context) {
         val pref = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
         val editor = pref.edit()

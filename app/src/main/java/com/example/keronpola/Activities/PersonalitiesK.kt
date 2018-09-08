@@ -4,9 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.example.kerojesus.DiscTest.R
-import com.example.keronpola.DiscTest.Activities.ResultActivity_DK
-import com.example.keronpola.DiscTest.Activities.ResultActivity_IK
-import com.example.keronpola.DiscTest.Activities.ResultActivity_SK
 import com.example.keronpola.DiscTest.Util.App
 import kotlinx.android.synthetic.main.activity_personalities.*
 
@@ -22,25 +19,25 @@ class PersonalitiesK : AppCompatActivity() {
 
 
         personality_d.setOnClickListener {
-            val window = Intent(this, ResultActivity_DK::class.java)
+            val window = Intent(this, ResultActivityDK::class.java)
             startActivity(window)
         }
 
 
         personality_i.setOnClickListener {
-            val window = Intent(this, ResultActivity_IK::class.java)
+            val window = Intent(this, ResultActivityIK::class.java)
             startActivity(window)
         }
 
 
         personality_s.setOnClickListener {
-            val window = Intent(this, ResultActivity_SK::class.java)
+            val window = Intent(this, ResultActivitySK::class.java)
             startActivity(window)
         }
 
 
         personality_c.setOnClickListener {
-            val window = Intent(this, ResultActivity_CK::class.java)
+            val window = Intent(this, ResultActivityCK::class.java)
             startActivity(window)
         }
 
