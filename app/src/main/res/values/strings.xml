@@ -23,6 +23,11 @@
     <string name="ShareApp">Share App</string>
     <string name="ReviewApp">Review App</string>
     <string name="about">About</string>
+    <string name="personality_c">You Are C Personality</string>
+    <string name="personality_d">You Are D Personality</string>
+    <string name="personality_i">You Are I Personality</string>
+    <string name="personality_s">You Are S Personality</string>
+
 
 
     <string name="personality" translatable="false">choose your personality</string>

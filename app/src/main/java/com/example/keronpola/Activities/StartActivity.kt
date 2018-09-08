@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.PopupMenu
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.Activities.LanChangeK
+import com.example.keronpola.Activities.PersonalitiesK
 import com.example.keronpola.DiscTest.Util.App
 import com.example.keronpola.DiscTest.Util.BaseActivityK
 import com.example.keronpola.DiscTest.Util.RateThisApp
@@ -38,7 +40,7 @@ class StartActivity : BaseActivityK(), View.OnClickListener {
             popup.menuInflater.inflate(R.menu.dots_menu, popup.menu)
 
             //registering popup with OnMenuItemClickListener
-            popup.setOnMenuItemClickListener({ item ->
+            popup.setOnMenuItemClickListener { item ->
                 when (item.itemId) {
                     R.id.per -> {
                         val kk = Intent(this, PersonalitiesK::class.java)
@@ -72,7 +74,7 @@ class StartActivity : BaseActivityK(), View.OnClickListener {
                 }
 
                 false
-            })
+            }
 
             popup.show()
         }
@@ -122,9 +124,8 @@ class StartActivity : BaseActivityK(), View.OnClickListener {
 
     override fun onClick(v: View) {
 
-            val p1 = Intent(this, Questions::class.java)
-            startActivity(p1)
-
+        val p1 = Intent(this, Questions::class.java)
+        startActivity(p1)
 
 
     }

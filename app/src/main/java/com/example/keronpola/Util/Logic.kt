@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentActivity
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
+import com.example.keronpola.Activities.ResultActivity_CK
 import com.example.keronpola.DiscTest.Activities.*
 import com.google.android.youtube.player.YouTubeInitializationResult
 import com.google.android.youtube.player.YouTubePlayer

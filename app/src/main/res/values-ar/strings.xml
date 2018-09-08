@@ -419,6 +419,10 @@
     <string name="video">الفيديو</string>
     <string name="description">الوصف</string>
     <string name="title_activity_about">عن </string>
+    <string name="personality_c">C شخصية</string>
+    <string name="personality_d">D شخصية</string>
+    <string name="personality_i">I شخصية</string>
+    <string name="personality_s">S شخصية</string>
 
 
 </resources>

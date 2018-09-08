@@ -14,6 +14,7 @@ import android.view.MenuItem
 import android.widget.TextView
 import com.example.kerojesus.DiscTest.R
 
+
 import com.example.keronpola.DiscTest.Util.LocaleManagerk.LANGUAGE_ARABIC
 import com.example.keronpola.DiscTest.Util.LocaleManagerk.LANGUAGE_ENGLISH
 import java.lang.ref.WeakReference

@@ -1,9 +1,12 @@
-package com.example.keronpola.DiscTest.Activities
+package com.example.keronpola.Activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.example.kerojesus.DiscTest.R
+import com.example.keronpola.DiscTest.Activities.ResultActivity_DK
+import com.example.keronpola.DiscTest.Activities.ResultActivity_IK
+import com.example.keronpola.DiscTest.Activities.ResultActivity_SK
 import com.example.keronpola.DiscTest.Util.App
 import kotlinx.android.synthetic.main.activity_personalities.*
 
